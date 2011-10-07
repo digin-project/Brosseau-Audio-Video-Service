@@ -1,9 +1,26 @@
 class PagesController < ApplicationController
   def home
-     @title = "Home"
+     @title = t :home
+     @body_id = "home"
    end
 
+    def about
+      @title = t :about 
+      @body_id = "secondary"
+    end
+    
+    def products
+      @title = t :products
+      @body_id = "secondary"
+     end
+     
+    def automation
+      @title = t :automation 
+      @body_id = "secondary"
+    end
+      
    def contact
-     @title = "Contact"
+     @title = t :contact 
+     @body_id = "secondary"
    end
 end

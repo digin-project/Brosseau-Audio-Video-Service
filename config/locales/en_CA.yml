@@ -6,6 +6,33 @@
     
   hello_world: Welcome to Brosseau's new Website!
   
+  # HEADER
+  home: Home
+  about: About
+  products: Products
+  automation: Automation
+  contact: Contact
+  
+  # FOOTER
+  home_cinema: Home Cinema
+  multi_room: Multi-room Systems
+  hifi: Hi-Fi
+  commercial: Commercial Atmosphere
+  surveillance: Video Surveillance
+  ligthing: Lighting Control
+  acoustic: Acoustic Processing
+  automation: Automation																														
+  calibration: Calibration						
+  conference: Conference Rooms
+  
+  expertise: Expertise
+  certification: Certification
+  newsletter: Newsletter
+  last_tweet: Last Tweet
+  
+  legal: Legal mentions
+  rights: All rights reserved
+  
   date:
     formats:
       default: "%Y-%m-%d"

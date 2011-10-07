@@ -10,7 +10,32 @@
 
 fr_CA:
    
-  hello_world: Bienvenue sur le nouveau site de Brosseau!     
+  # HEADER  
+  home: Accueil
+  about: A propos
+  products: Produits
+  automation: Automatisation
+  contact: Contact   
+  
+  # FOOTER
+  home_cinema: Cinéma Maison
+  multi_room: Systèmes multi-pièces
+  hifi: Haute Fidélité
+  commercial: Ambiance commerciale
+  surveillance: Surveillance vidéo
+  ligthing: Contrôle d'éclairage
+  acoustic: Traitement acoustique
+  automation: Automatisation																												
+  calibration: Calibration					
+  conference: Salle de conférence
+  
+  expertise: Expertise
+  certification: Certification
+  newsletter: Lettre de Nouvelles
+  last_tweet: Dernier Tweet
+  
+  legal: Mentions légales
+  rights: Tous droits réservés
   
   date:
     formats:

@@ -1,7 +1,9 @@
 Brosseau::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/contact"
+  match '/apropos',   :to => 'pages#about'
+  match '/produits',    :to => 'pages#products'
+  match '/automatisation', :to => 'pages#automation'
+  match '/contact', :to => 'pages#contact'
+  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
