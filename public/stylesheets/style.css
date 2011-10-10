@@ -255,15 +255,7 @@ ul.menu > li{
 ul.menu > li.last{
     border:none;
 }
-.bg1{
-    background-image: url(../images/scroller_audio.jpg);
-}
-.bg2{
-    background-image: url(../images/scroller_video.jpg);
-}
-.bg3{
-    background-image: url(../images/scroller_automation.jpg);
-}
+
 #bg1 { width:1px; height:1px; z-index:-99;}
 #bg2 {width:1px; height:1px; z-index:-99;}
 #bg3 {width:1px; height:1px; z-index:-99;}

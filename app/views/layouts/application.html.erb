@@ -4,7 +4,8 @@
 <meta charset="utf-8" />
 <meta name="keywords" content="Brosseau audio video">
 <title>Brosseau | <%= @title %></title>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "style" %>
+  <link href="stylesheets/<%=t :localize_css%>.css" rel="stylesheet" />
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 <!--[if lt IE 9]>

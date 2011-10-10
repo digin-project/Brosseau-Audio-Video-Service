@@ -4,7 +4,7 @@
 
 "en_CA":
     
-  hello_world: Welcome to Brosseau's new Website!
+  localize_css: "localize_en"
   
   # HEADER
   home: Home
