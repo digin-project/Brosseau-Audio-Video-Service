@@ -37,6 +37,18 @@ fr_CA:
   legal: Mentions légales
   rights: Tous droits réservés
   
+  other_systems: Autres systèmes
+  
+  newsletter_stay_informed: Restez informés
+  newsletter_on_new_products: sur les nouveaux produits
+  
+  # SCROLLER
+  audio_title: AUDIO
+  video_title: VIDEO
+  automation_title: AUTOMATISATION
+  speakers: Haut parleurs
+  tv3d: TV & TV3D
+  
   date:
     formats:
       default: "%Y-%m-%d"

@@ -84,13 +84,32 @@
 				</section>
 				<section id="ft_automatisation">
 					<header><h1><%=t :automation%></h1></header>
+					<article>
+						<p><a href="">AMX</a></p>
+						<p><a href="">Vantage</p>
+						<p><a href=""><%=t :other_systems%></a></p>
+					</article>
+				</section>
+				<section id="ft_newsletter">
+					<header><h1><%=t :newsletter%></h1></header>
+					<article>
+						<p>
+							<%=t :newsletter_stay_informed%><br />
+						    <%=t :newsletter_on_new_products%>
+						</p>
+						<br />
+						<form>
+							<label for="email">Inscription Newsletter</label><br />
+							<input type="text" name="email"></input>
+							<a href="#" id="bt_submit" onClick="document.getElementById('form').submit()">Ok</a>
+							
+						</form>
+					</article>
 				</section>
 				<section id="ft_certification">
 					<header><h1><%=t :certification%></h1></header>
 				</section>
-				<section id="ft_newsletter">
-					<header><h1><%=t :newsletter%></h1></header>
-				</section>
+				
 				<section id="ft_tweets">
 					<header><h1><%=t :last_tweet%></h1></header>
 				</section>
@@ -98,15 +117,20 @@
 					<header><h1><%=t :contact%></h1></header>
 				</section>
 				<section id="copyright">
-					<p><%=t :legal%> | &copy; 2011 Brosseau. <%=t :rights%> - <a href="http://agenceneos.com" target="_blank" id="tag_neos"></a></p>
+					<p><a href=""><%=t :legal%></a> | &copy; 2011 Brosseau. <%=t :rights%> -</p>
+					<p><a href="http://agenceneos.com" target="_blank" id="tag_neos"></a></p>
 				</section>
 		</footer>
 			
 	</div>
 	<!-- END FOOTER -->
 
+	<!-- The JavaScript -->
+ 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="javascripts/jquery.bgpos.js"></script>
+	<script src="javascripts/jquery.easing-1.3.pack.js"></script>
+	<script src="javascripts/application.js"></script>
 
-	
 	
 </body>
 </html>

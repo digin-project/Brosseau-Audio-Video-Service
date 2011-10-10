@@ -33,6 +33,18 @@
   legal: Legal mentions
   rights: All rights reserved
   
+  other_systems: Other systems
+  
+  newsletter_stay_informed: Stay up-to-date
+  newsletter_on_new_products: on new products
+  
+  # SCROLLER
+  audio_title: AUDIO
+  video_title: VIDEO
+  automation_title: AUTOMATION
+  speakers: Speakers
+  tv3d: TV & 3DTV
+  
   date:
     formats:
       default: "%Y-%m-%d"
