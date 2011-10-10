@@ -4,7 +4,7 @@
 
 "en_CA":
     
-  localize_css: "localize_en"
+  localize_css: localize_en
   
   # HEADER
   home: Home
@@ -45,6 +45,16 @@
   speakers: Speakers
   tv3d: TV & 3DTV
   
+  # NEWS FLASH
+  news: News
+  news_test_1: Welcome to Brosseau Audio Video new website, what can we do for you? 
+  
+  # BRANDS
+  our_brands: Our Brands
+  
+  
+  
+  # STANDARD
   date:
     formats:
       default: "%Y-%m-%d"

@@ -10,7 +10,7 @@
 
 fr_CA:
    
-  localize_css: "localize_fr"
+  localize_css: localize_fr
    
   # HEADER  
   home: Accueil
@@ -51,6 +51,15 @@ fr_CA:
   speakers: Haut parleurs
   tv3d: TV & TV3D
   
+  # NEWS FLASH
+  news: Actualités
+  news_test_1: Bienvenue sur le nouveau site de Brosseau Audio Video, à votre service!
+    
+  # BRANDS
+  our_brands: Nos Marques
+    
+    
+  # STANDARD
   date:
     formats:
       default: "%Y-%m-%d"

@@ -1,4 +1,14 @@
-
+	$(document).ready(function(){
+		$("#slider").easySlider({
+			auto: true, 
+			continuous: true, 
+			controlsShow:		false,
+			pause: 2500,
+			speed: 800
+		});
+	});
+	
+	
 /*** Custom animation for Brosseau's menu elements ***/
 $(function(){
 
@@ -13,7 +23,7 @@ $(function(){
 					$("#txt_audio").delay(300).fadeIn();
 					$("#central_menu_title_audio").animate({"top": "-40px"}, 200);
 					$("#central_menu_title_automation").animate({"top": "-65px"}, 200);
-					$("#central_menu_title_video").animate({"top": "-65px"}, 500);
+					$("#central_menu_title_video").animate({"top": "-65px"}, 200);
 					}
 				);
 	
@@ -28,7 +38,7 @@ $(function(){
 					$("#txt_video").delay(300).fadeIn();
 					$("#central_menu_title_audio").animate({"top": "-65px"}, 200);
 					$("#central_menu_title_automation").animate({"top": "-65px"}, 200);
-					$("#central_menu_title_video").animate({"top": "-40px"}, 500);
+					$("#central_menu_title_video").animate({"top": "-40px"}, 200);
 					
 					}
 				);
@@ -44,7 +54,7 @@ $(function(){
 					$("#txt_automation").delay(300).fadeIn();
 					$("#central_menu_title_audio").animate({"top": "-65px"}, 200);
 					$("#central_menu_title_automation").animate({"top": "-40px"}, 200);
-					$("#central_menu_title_video").animate({"top": "-65px"}, 500);
+					$("#central_menu_title_video").animate({"top": "-65px"}, 200);
 					}
 				);
 
@@ -80,11 +90,11 @@ $(function(){
 						otherwise right->left
 						 */
 						if(item == 'bg1' || current == 2)
-							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(-321px 0)"},300,function(){
+							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(-321px 0)"},200,function(){
 								$(this).find('p').hide();
 							});
 						else
-							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(321px 0)"},300,function(){
+							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(321px 0)"},200,function(){
 								$(this).find('p').hide();
 							});
 
@@ -105,10 +115,10 @@ $(function(){
 						from left to right or right to left.
 						 */
 						if(current == 2 && item == 'bg1'){
-							$('#menu .sub'+parseInt(current)).stop().animate({backgroundPosition:"(-321px 0)"},300);
+							$('#menu .sub'+parseInt(current)).stop().animate({backgroundPosition:"(-321px 0)"},200);
 						}
 						if(current == 0 && item == 'bg3'){
-							$('#menu .sub'+parseInt(current+2)).stop().animate({backgroundPosition:"(321px 0)"},300);
+							$('#menu .sub'+parseInt(current+2)).stop().animate({backgroundPosition:"(321px 0)"},200);
 						}
 
 						
@@ -117,7 +127,7 @@ $(function(){
 						
 						/* let's make the overlay of the current one appear */
 					   
-						$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(0 0)"},300,function(){
+						$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(0 0)"},200,function(){
 							$(this).find('p').fadeIn();
 						});
 					});
@@ -132,8 +142,8 @@ $(function(){
         function move(dir,item){
             if(dir){
                 $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},200);
-                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},300);
-                $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},400,function(){
+                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},200);
+                $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},200,function(){
                     $('#menuWrapper').removeClass('bg1 bg2 bg3').addClass(item);
                 });
             }
@@ -141,7 +151,7 @@ $(function(){
                 $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},400,function(){
                     $('#menuWrapper').removeClass('bg1 bg2 bg3').addClass(item);
                 });
-                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},300);
+                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},200);
                 $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},200);
             }
         }

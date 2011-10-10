@@ -53,7 +53,7 @@ body {
 }
 #home{	
 	color:#FFF;
-	background:#000 url(../images/bg_header_repeat.jpg) repeat-x;
+	background:#000 url(../images/bg_home_repeat.jpg) repeat-x;
 }
 #secondary{	
 	color:#000;
@@ -234,7 +234,7 @@ body {
     position:relative;
 	top:0px;
 	left:0px;
-    height:509px;
+    height:504px;
     width:963px;
     background-position:0 0;
     background-repeat:no-repeat;
@@ -247,7 +247,7 @@ ul.menu{
 ul.menu > li{
     float:left;
     width:320px;
-    height:509px;
+    height:504px;
     border-right:1px solid #777;
     background-repeat:no-repeat;
     background-color:transparent;
@@ -316,12 +316,7 @@ ul.menu > li ul li a:hover{
 
 
 /***** CENTRAL HOME PAGE MENU *****/
-
-
-/***** END CENTRAL HOME PAGE MENU *****/
-
-
-#central_home_menu {position:relative; top:0px; left:0px; }
+#central_home_menu {position:relative; top:0px; left:0px; z-index:1;}
 #link_audio_menu{ position: absolute; font-size: 14px; top: 0px; left: 0px; text-decoration:none;}
 #link_video_menu{position: absolute; font-size: 14px; top: 0px; left: 321px; text-decoration:none;}
 #link_automation_menu{position: absolute; font-size: 14px; top: 0px; left: 642px; text-decoration:none;}
@@ -365,6 +360,9 @@ ul.menu > li ul li a:hover{
 
 
 #central_menu_title_audio {
+	display:block;
+	height:100px;
+	width:320px;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:25px;
 	color:#FFF;
@@ -376,6 +374,9 @@ ul.menu > li ul li a:hover{
 	-ms-filter: "alpha(opacity=100)"; /* IE 8 */
 }
 #central_menu_title_video {
+	display:block;
+	height:100px;
+	width:320px;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:25px;
 	color:#FFF;
@@ -387,6 +388,9 @@ ul.menu > li ul li a:hover{
 	-ms-filter: "alpha(opacity=100)"; /* IE 8 */
 }
 #central_menu_title_automation {
+	display:block;
+	height:100px;
+	width:320px;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:25px;
 	color:#FFF;
@@ -400,7 +404,7 @@ ul.menu > li ul li a:hover{
 #txt_audio{
 	line-height:1.7em;
 	position:relative;
-	top:-10px;
+	top:-80px;
 	left:-127px;
 	text-align:right;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
@@ -411,7 +415,7 @@ ul.menu > li ul li a:hover{
 	display:none;
 	line-height:1.7em;
 	position:relative;
-	top:-10px;
+	top:-80px;
 	left:125px;
 	text-align:left;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
@@ -422,10 +426,82 @@ ul.menu > li ul li a:hover{
 	display:none;
 	line-height:1.7em;
 	position:relative;
-	top:-10px;
+	top:-80px;
 	left:60px;
 	text-align:left;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:14px;
 	color:#FFF;	
 }
+/***** END CENTRAL HOME PAGE MENU *****/
+
+
+
+
+/***** CENTRAL HOME PAGE MIDDLE BODY SECTION *****/
+#body_home_section {
+	width:963px;
+	height:427px;
+}
+#body_home {
+	position:absolute; z-index:99;
+	background: url(../images/bg_home_body.jpg) no-repeat;
+	width:963px;
+	height:427px;
+}
+
+
+#expert{
+	width:458px; height:205px;
+	background: url(../images/bg_expert.png) no-repeat;	
+	position:absolute;
+	left:460px;
+	top:78px;
+}
+
+#news_flash{
+	position:absolute;
+	left:91px;
+	top:22px;	
+}
+#news_flash h1{
+	float:left;
+	font-size:14px;
+	font-family:Arial, sans-serif;
+	color:#7f7b7b;
+	width:107px;
+}
+#news_flash p{
+	width:840px;
+	font-size:14px;
+	font-family:Arial, sans-serif;
+}
+
+#brands h1{
+	position:absolute;
+	top:290px;
+	left:107px;
+	font-size:16px;
+	font-family: "LaneNarrowRegular", Verdana, sans-serif;
+	color:#FFF;
+}
+
+
+/*** Slider ***/
+#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+}
+#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:350px;
+		height:43px;
+		overflow:hidden; 
+}
+/*** End Slider ***/
+
+/***** CENTRAL HOME PAGE MIDDLE BODY SECTION END *****/

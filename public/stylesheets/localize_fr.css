@@ -7,3 +7,11 @@
 .bg3{
     background-image: url(../images/scroller_automation.jpg);
 }
+
+#new_product{
+	width:400px; height:205px;
+	background: url(../images/bg_new_fr.png) no-repeat;
+	position:absolute;
+	left:35px;
+	top:78px;
+}
