@@ -453,10 +453,109 @@ ul.menu > li ul li a:hover{
 
 #expert{
 	width:458px; height:205px;
+	padding-top:10px;
+	padding-left:30px;
 	background: url(../images/bg_expert.png) no-repeat;	
 	position:absolute;
 	left:460px;
 	top:78px;
+}
+#expert h1{
+	font-size:30px;
+	font-family: "LaneNarrowRegular", Verdana, sans-serif;
+	color:#FFF;
+}
+#expert h2{
+	padding-top:20px;
+	font-size:14px;
+	font-family: Arial, sans-serif;
+}
+#expert p{
+	color:#7f7b7b;
+	font-size:12px;
+	padding-top:10px;
+	width:380px;
+	text-align:justify;
+}
+#expert_ask{
+	color:#7f7b7b;
+	font-size:12px;
+	position:absolute;
+	top:25px;
+	left:300px;
+}
+#expert_ask:hover{
+	color:#FFF;
+}
+#expert_share{
+	color:#FFF;
+	font-size:12px;
+	background: url(../images/fcbk.png) no-repeat;
+	padding-left:30px;
+	padding-top:3px;
+	margin-top:5px;
+	display:block;
+	height:20px;
+	width:150px;
+	position:absolute;
+	left:30px;
+	top:163px;
+}
+#expert_share:hover{
+	text-decoration:underline;
+}
+#expert_read{
+	clear:both;
+	position:absolute;
+	padding-top:4px;
+	top:170px;
+	left:240px;
+	color:#FFF;
+	font-size:11px;
+	text-align:center;
+	display:block; 
+	width:83px; 
+	height:19px; 
+	-webkit-transition: all.3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:5px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#3F516F), to(#20283C));
+	background: -moz-linear-gradient(0% 56% 90deg,#20283C, #3F516F);
+}
+#expert_read:hover{
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#5d3e6e), to(#35213d));
+	background: -moz-linear-gradient(0% 56% 90deg,#35213d, #5d3e6e);
+}
+
+#expert_comment{
+	clear:both;
+	position:absolute;
+	padding-top:4px;
+	top:170px;
+	left:330px;
+	color:#FFF;
+	font-size:11px;
+	text-align:center;
+	display:block; 
+	width:83px; 
+	height:19px; 
+	-webkit-transition: all.3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:5px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#3F516F), to(#20283C));
+	background: -moz-linear-gradient(0% 56% 90deg,#20283C, #3F516F);
+}
+#expert_comment:hover{
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#5d3e6e), to(#35213d));
+	background: -moz-linear-gradient(0% 56% 90deg,#35213d, #5d3e6e);
 }
 
 #news_flash{
@@ -485,9 +584,67 @@ ul.menu > li ul li a:hover{
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	color:#FFF;
 }
-
+#new_product_pic {padding-left:10px;}
+#new_product_txt {font-size:14px; width:280px; float:left;}
+#new_product_date {color:#7f7b7b;}
+#new_product_more{
+	clear:both;
+	position:absolute;
+	padding-top:4px;
+	top:170px;
+	left:295px;
+	color:#FFF;
+	font-size:11px;
+	text-align:center;
+	display:block; 
+	width:83px; 
+	height:19px; 
+	-webkit-transition: all.5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:5px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#3F516F), to(#20283C));
+	background: -moz-linear-gradient(0% 56% 90deg,#20283C, #3F516F);
+}
+#new_product_more:hover{
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#5d3e6e), to(#35213d));
+	background: -moz-linear-gradient(0% 56% 90deg,#35213d, #5d3e6e);
+}
+#new_product_left{
+	position:absolute;
+	top:70px;
+	left:315px;
+	display:block; 
+	width:22px; 
+	height:21px; 
+	background: url(../images/sprite_left_arrow.png) left top no-repeat;
+}
+#new_product_left:hover{
+	background: url(../images/sprite_left_arrow.png) right top no-repeat;
+}
+#new_product_right{
+	position:absolute;
+	top:69px;
+	left:340px;
+	display:block; 
+	width:22px; 
+	height:21px; 
+	background: url(../images/sprite_right_arrow.png) left top no-repeat;
+}
+#new_product_right:hover{
+	background: url(../images/sprite_right_arrow.png) right top no-repeat;
+}
 
 /*** Slider ***/
+#brands {
+	position:absolute;
+	top:320px;
+	left:90px;
+	
+}
 #slider ul, #slider li{
 		margin:0;
 		padding:0;
@@ -498,9 +655,273 @@ ul.menu > li ul li a:hover{
 			define width and height of list item (slide)
 			entire slider area will adjust according to the parameters provided here
 		*/ 
-		width:350px;
-		height:43px;
+		width:820px;
+		height:70px;
 		overflow:hidden; 
+}
+#brand_amx{
+	float:left;
+	display:block;
+	width:132px;
+	height:30px;
+	background: url(../images/brands/sprite_01.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_amx:hover{
+	background: url(../images/brands/sprite_01.jpg) right top no-repeat;
+}
+
+#brand_vantage{
+	float:left;
+	display:block;
+	width:105px;
+	height:45px;
+	background: url(../images/brands/sprite_02.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:5px;
+}
+#brand_vantage:hover{
+	background: url(../images/brands/sprite_02.jpg) right top no-repeat;
+}
+
+#brand_sc{
+	float:left;
+	display:block;
+	width:260px;
+	height:39px;
+	background: url(../images/brands/sprite_18.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_sc:hover{
+	background: url(../images/brands/sprite_18.jpg) right top no-repeat;
+}
+
+#brand_mcintosh{
+	float:left;
+	display:block;
+	width:121px;
+	height:32px;
+	background: url(../images/brands/sprite_03.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:17px;
+}
+#brand_mcintosh:hover{
+	background: url(../images/brands/sprite_03.jpg) right top no-repeat;
+}
+
+
+#brand_sony{
+	float:left;
+	display:block;
+	width:212px;
+	height:39px;
+	background: url(../images/brands/sprite_07.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_sony:hover{
+	background: url(../images/brands/sprite_07.jpg) right top no-repeat;
+}
+
+#brand_rotel{
+	float:left;
+	display:block;
+	width:79px;
+	height:40px;
+	background: url(../images/brands/sprite_06.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_rotel:hover{
+	background: url(../images/brands/sprite_06.jpg) right top no-repeat;
+}
+
+#brand_panamax{
+	float:left;
+	display:block;
+	width:217px;
+	height:37px;
+	background: url(../images/brands/sprite_10.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:7px;
+}
+#brand_panamax:hover{
+	background: url(../images/brands/sprite_10.jpg) right top no-repeat;
+}
+
+#brand_ml{
+	float:left;
+	display:block;
+	width:73px;
+	height:45px;
+	background: url(../images/brands/sprite_04.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:7px;
+}
+#brand_ml:hover{
+	background: url(../images/brands/sprite_04.jpg) right top no-repeat;
+}
+
+#brand_xantech{
+	float:left;
+	display:block;
+	width:162px;
+	height:36px;
+	background: url(../images/brands/sprite_13.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_xantech:hover{
+	background: url(../images/brands/sprite_13.jpg) right top no-repeat;
+}
+
+#brand_vidikron{
+	float:left;
+	display:block;
+	width:200px;
+	height:37px;
+	background: url(../images/brands/sprite_12.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_vidikron:hover{
+	background: url(../images/brands/sprite_12.jpg) right top no-repeat;
+}
+
+#brand_stewart{
+	float:left;
+	display:block;
+	width:168px;
+	height:37px;
+	background: url(../images/brands/sprite_08.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:17px;
+}
+#brand_stewart:hover{
+	background: url(../images/brands/sprite_08.jpg) right top no-repeat;
+}
+
+#brand_linn{
+	float:left;
+	display:block;
+	width:45px;
+	height:60px;
+	background: url(../images/brands/sprite_09.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:5px;
+}
+#brand_linn:hover{
+	background: url(../images/brands/sprite_09.jpg) right top no-repeat;
+}
+
+#brand_bw{
+	float:left;
+	display:block;
+	width:183px;
+	height:32px;
+	background: url(../images/brands/sprite_05.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_bw:hover{
+	background: url(../images/brands/sprite_05.jpg) right top no-repeat;
+}
+
+#brand_audioquest{
+	float:left;
+	display:block;
+	width:187px;
+	height:35px;
+	background: url(../images/brands/sprite_14.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_audioquest:hover{
+	background: url(../images/brands/sprite_14.jpg) right top no-repeat;
+}
+
+#brand_marantz{
+	float:left;
+	display:block;
+	width:191px;
+	height:22px;
+	background: url(../images/brands/sprite_15.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:20px;
+}
+#brand_marantz:hover{
+	background: url(../images/brands/sprite_15.jpg) right top no-repeat;
+}
+
+#brand_sonance{
+	float:left;
+	display:block;
+	width:54px;
+	height:70px;
+	background: url(../images/brands/sprite_17.jpg) left top no-repeat;
+	margin-right:50px;
+}
+#brand_sonance:hover{
+	background: url(../images/brands/sprite_17.jpg) right top no-repeat;
+}
+
+#brand_loewe{
+	float:left;
+	display:block;
+	width:206px;
+	height:37px;
+	background: url(../images/brands/sprite_19.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_loewe:hover{
+	background: url(../images/brands/sprite_19.jpg) right top no-repeat;
+}
+
+#brand_cambridge{
+	float:left;
+	display:block;
+	width:250px;
+	height:31px;
+	background: url(../images/brands/sprite_20.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_cambridge:hover{
+	background: url(../images/brands/sprite_20.jpg) right top no-repeat;
+}
+
+#brand_tivoli{
+	float:left;
+	display:block;
+	width:172px;
+	height:37px;
+	background: url(../images/brands/sprite_11.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_tivoli:hover{
+	background: url(../images/brands/sprite_11.jpg) right top no-repeat;
 }
 /*** End Slider ***/
 

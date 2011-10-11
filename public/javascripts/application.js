@@ -3,8 +3,8 @@
 			auto: true, 
 			continuous: true, 
 			controlsShow:		false,
-			pause: 2500,
-			speed: 800
+			pause: 3500,
+			speed: 1500
 		});
 	});
 	

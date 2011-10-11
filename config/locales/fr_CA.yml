@@ -54,6 +54,17 @@ fr_CA:
   # NEWS FLASH
   news: Actualités
   news_test_1: Bienvenue sur le nouveau site de Brosseau Audio Video, à votre service!
+  
+  # NEW PRODUCTS
+  more: En savoir plus
+  
+  # EXPERTS ADVICE
+  expert_title: L'avis de l'expert
+  expert_article_title_test: Comment obtenir le meilleur son de son 5.1
+  ask: Posez lui vos questions
+  share: Partager sur facebook
+  read: Lire l'article
+  comment: Commenter
     
   # BRANDS
   our_brands: Nos Marques
