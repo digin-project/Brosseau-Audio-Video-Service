@@ -1,0 +1,286 @@
+/*** Slider ***/
+#brands {
+	position:absolute;
+	top:320px;
+	left:90px;
+	
+}
+#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+}
+#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:820px;
+		height:70px;
+		overflow:hidden; 
+}
+#brand_amx{
+	float:left;
+	display:block;
+	width:132px;
+	height:30px;
+	background: url(../images/brands/sprite_01.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_amx:hover{
+	background: url(../images/brands/sprite_01.jpg) right top no-repeat;
+}
+
+#brand_vantage{
+	float:left;
+	display:block;
+	width:105px;
+	height:45px;
+	background: url(../images/brands/sprite_02.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:5px;
+}
+#brand_vantage:hover{
+	background: url(../images/brands/sprite_02.jpg) right top no-repeat;
+}
+
+#brand_sc{
+	float:left;
+	display:block;
+	width:260px;
+	height:39px;
+	background: url(../images/brands/sprite_18.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_sc:hover{
+	background: url(../images/brands/sprite_18.jpg) right top no-repeat;
+}
+
+#brand_mcintosh{
+	float:left;
+	display:block;
+	width:121px;
+	height:32px;
+	background: url(../images/brands/sprite_03.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:17px;
+}
+#brand_mcintosh:hover{
+	background: url(../images/brands/sprite_03.jpg) right top no-repeat;
+}
+
+
+#brand_sony{
+	float:left;
+	display:block;
+	width:212px;
+	height:39px;
+	background: url(../images/brands/sprite_07.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_sony:hover{
+	background: url(../images/brands/sprite_07.jpg) right top no-repeat;
+}
+
+#brand_rotel{
+	float:left;
+	display:block;
+	width:79px;
+	height:40px;
+	background: url(../images/brands/sprite_06.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_rotel:hover{
+	background: url(../images/brands/sprite_06.jpg) right top no-repeat;
+}
+
+#brand_panamax{
+	float:left;
+	display:block;
+	width:217px;
+	height:37px;
+	background: url(../images/brands/sprite_10.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:7px;
+}
+#brand_panamax:hover{
+	background: url(../images/brands/sprite_10.jpg) right top no-repeat;
+}
+
+#brand_ml{
+	float:left;
+	display:block;
+	width:73px;
+	height:45px;
+	background: url(../images/brands/sprite_04.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:7px;
+}
+#brand_ml:hover{
+	background: url(../images/brands/sprite_04.jpg) right top no-repeat;
+}
+
+#brand_xantech{
+	float:left;
+	display:block;
+	width:162px;
+	height:36px;
+	background: url(../images/brands/sprite_13.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_xantech:hover{
+	background: url(../images/brands/sprite_13.jpg) right top no-repeat;
+}
+
+#brand_vidikron{
+	float:left;
+	display:block;
+	width:200px;
+	height:37px;
+	background: url(../images/brands/sprite_12.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:12px;
+}
+#brand_vidikron:hover{
+	background: url(../images/brands/sprite_12.jpg) right top no-repeat;
+}
+
+#brand_stewart{
+	float:left;
+	display:block;
+	width:168px;
+	height:37px;
+	background: url(../images/brands/sprite_08.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:17px;
+}
+#brand_stewart:hover{
+	background: url(../images/brands/sprite_08.jpg) right top no-repeat;
+}
+
+#brand_linn{
+	float:left;
+	display:block;
+	width:45px;
+	height:60px;
+	background: url(../images/brands/sprite_09.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:5px;
+}
+#brand_linn:hover{
+	background: url(../images/brands/sprite_09.jpg) right top no-repeat;
+}
+
+#brand_bw{
+	float:left;
+	display:block;
+	width:183px;
+	height:32px;
+	background: url(../images/brands/sprite_05.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_bw:hover{
+	background: url(../images/brands/sprite_05.jpg) right top no-repeat;
+}
+
+#brand_audioquest{
+	float:left;
+	display:block;
+	width:187px;
+	height:35px;
+	background: url(../images/brands/sprite_14.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_audioquest:hover{
+	background: url(../images/brands/sprite_14.jpg) right top no-repeat;
+}
+
+#brand_marantz{
+	float:left;
+	display:block;
+	width:191px;
+	height:22px;
+	background: url(../images/brands/sprite_15.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:20px;
+}
+#brand_marantz:hover{
+	background: url(../images/brands/sprite_15.jpg) right top no-repeat;
+}
+
+#brand_sonance{
+	float:left;
+	display:block;
+	width:54px;
+	height:70px;
+	background: url(../images/brands/sprite_17.jpg) left top no-repeat;
+	margin-right:50px;
+}
+#brand_sonance:hover{
+	background: url(../images/brands/sprite_17.jpg) right top no-repeat;
+}
+
+#brand_loewe{
+	float:left;
+	display:block;
+	width:206px;
+	height:37px;
+	background: url(../images/brands/sprite_19.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_loewe:hover{
+	background: url(../images/brands/sprite_19.jpg) right top no-repeat;
+}
+
+#brand_cambridge{
+	float:left;
+	display:block;
+	width:250px;
+	height:31px;
+	background: url(../images/brands/sprite_20.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_cambridge:hover{
+	background: url(../images/brands/sprite_20.jpg) right top no-repeat;
+}
+
+#brand_tivoli{
+	float:left;
+	display:block;
+	width:172px;
+	height:37px;
+	background: url(../images/brands/sprite_11.jpg) left top no-repeat;
+	margin-right:50px;
+	position:relative;
+	top:15px;
+}
+#brand_tivoli:hover{
+	background: url(../images/brands/sprite_11.jpg) right top no-repeat;
+}
+/*** End Slider ***/

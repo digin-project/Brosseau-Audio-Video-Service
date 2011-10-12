@@ -9,6 +9,14 @@
 	});
 	
 	
+// reset du champ localisation quand on clic dessus avec la souris
+function resetField()
+{ 
+	document.getElementById('email').value='';
+}
+	
+	
+	
 /*** Custom animation for Brosseau's menu elements ***/
 $(function(){
 
@@ -17,7 +25,7 @@ $(function(){
 					$("#menu_blue").animate({"top": "-149px"}, 400, 'easeInOutExpo');
 					$("#menu_green").animate({"top":"0px"},400, 'easeInOutExpo');
 					$("#menu_violet").animate({"top":"0px"},400, 'easeInOutExpo');
-						$('#bg1').mouseover();
+					$('#bg1').mouseover(); // simulates hover on scroller
 					$("#txt_video").fadeOut(100);
 					$("#txt_automation").fadeOut(100);
 					$("#txt_audio").delay(300).fadeIn();
@@ -32,7 +40,7 @@ $(function(){
 					$("#menu_green").animate({"top": "-149px"}, 400, 'easeInOutExpo');
 					$("#menu_blue").animate({"top":"0px"}, 400, 'easeInOutExpo');
 					$("#menu_violet").animate({"top":"0px"},400, 'easeInOutExpo');
-						$('#bg2').mouseover();
+					$('#bg2').mouseover(); // simulates hover on scroller
 					$("#txt_audio").fadeOut(100);
 					$("#txt_automation").fadeOut(100);
 					$("#txt_video").delay(300).fadeIn();
@@ -48,7 +56,7 @@ $(function(){
 					$("#menu_violet").animate({"top": "-149px"}, 400, 'easeInOutExpo');
 					$("#menu_green").animate({"top":"0px"},400, 'easeInOutExpo');
 					$("#menu_blue").animate({"top":"0px"},400, 'easeInOutExpo');
-						$('#bg3').mouseover();
+					$('#bg3').mouseover(); // simulates hover on scroller
 					$("#txt_video").fadeOut(100);
 					$("#txt_audio").fadeOut(100);
 					$("#txt_automation").delay(300).fadeIn();
@@ -67,6 +75,7 @@ $(function(){
  $(function() {
         /* position of the <li> that is currently shown */
         var current = 0;
+		var speed = 800;
 		
 		var loaded  = 0;
 		for(var i = 1; i <4; ++i)
@@ -90,11 +99,11 @@ $(function(){
 						otherwise right->left
 						 */
 						if(item == 'bg1' || current == 2)
-							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(-321px 0)"},200,function(){
+							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(-321px 0)"},speed,'easeInOutExpo', function(){
 								$(this).find('p').hide();
 							});
 						else
-							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(321px 0)"},200,function(){
+							$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(321px 0)"},speed,'easeInOutExpo', function(){
 								$(this).find('p').hide();
 							});
 
@@ -115,10 +124,10 @@ $(function(){
 						from left to right or right to left.
 						 */
 						if(current == 2 && item == 'bg1'){
-							$('#menu .sub'+parseInt(current)).stop().animate({backgroundPosition:"(-321px 0)"},200);
+							$('#menu .sub'+parseInt(current)).stop().animate({backgroundPosition:"(-321px 0)"},speed,'easeInOutExpo');
 						}
 						if(current == 0 && item == 'bg3'){
-							$('#menu .sub'+parseInt(current+2)).stop().animate({backgroundPosition:"(321px 0)"},200);
+							$('#menu .sub'+parseInt(current+2)).stop().animate({backgroundPosition:"(321px 0)"},speed,'easeInOutExpo');
 						}
 
 						
@@ -127,7 +136,7 @@ $(function(){
 						
 						/* let's make the overlay of the current one appear */
 					   
-						$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(0 0)"},200,function(){
+						$('#menu .sub'+parseInt(current+1)).stop().animate({backgroundPosition:"(0 0)"},speed,'easeInOutExpo',function(){
 							$(this).find('p').fadeIn();
 						});
 					});
@@ -141,18 +150,18 @@ $(function(){
          */
         function move(dir,item){
             if(dir){
-                $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},200);
-                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},200);
-                $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},200,function(){
+                $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},speed,'easeInOutExpo');
+                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},speed,'easeInOutExpo');
+                $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},speed,'easeInOutExpo',function(){
                     $('#menuWrapper').removeClass('bg1 bg2 bg3').addClass(item);
                 });
             }
             else{
-                $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},400,function(){
+                $('#bg1').parent().stop().animate({backgroundPosition:"(0 0)"},speed,'easeInOutExpo',function(){
                     $('#menuWrapper').removeClass('bg1 bg2 bg3').addClass(item);
                 });
-                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},200);
-                $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},200);
+                $('#bg2').parent().stop().animate({backgroundPosition:"(-321px 0)"},speed,'easeInOutExpo');
+                $('#bg3').parent().stop().animate({backgroundPosition:"(-642px 0)"},speed,'easeInOutExpo');
             }
         }
     });

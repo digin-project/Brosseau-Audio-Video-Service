@@ -150,12 +150,11 @@ body {
 	width: 963px;
 	height: 350px;
 	font:#7f7b7b 12px Arial;
-	padding-left:60px;
-	padding-top:30px;
+	padding-left:70px;
+	padding-top:23px;
 }
 #central_footer p{
 	line-height:1.6em;
-	width:240px;
 }
 #central_footer a{
 	color:#7f7b7b;
@@ -166,18 +165,43 @@ body {
 #central_footer h1{
 	color:#FFF;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
-	font-size:18px;
-	padding-bottom:20px;
+	font-size:16px;
+	padding-bottom:15px;
 }
 
 
-#ft_expertise{float:left; padding-right:60px;}
-#ft_automatisation{ padding-right:60px; float:left;}
-#ft_certification{float:left; padding-right:60px;}
-#ft_newsletter{float:left;}
-#ft_newsletter p {color:#FFF;}
+#ft_expertise{float:left; width:228px;}
+#ft_automatisation{ width:220px; float:left;}
+#ft_certification{float:left; padding-top:35px;}
+#ft_newsletter{ width:280px; float:left; font-size:12px;}
+#ft_tweets{ padding-top:50px;}
+#ft_tweets h1{ padding-bottom:5px;}
+#last_tweet {
+	width:200px;
+	height:70px;
+	display:block;
+	border:1px solid #2f2f2f;
+}
+#ft_contact{}
+#ft_contact p {color:#FFF; line-height:12px;}
+#ft_contact h3 {color:#7f7b7b;}
+#ft_contact h2 {padding-top:2px; color:#FFF; font-size:21px;}
+#ft_contact #maps {
+	margin-top:5px;
+	float:left;
+	display:block;
+	width:52px;
+	height:49px;
+	background: url(../images/google_maps.jpg);
+}
+#questions {
+margin-top:35px;
+}
+
+
+#ft_newsletter p {color:#FFF; line-height:12px;}
 #ft_newsletter label {color:#7f7b7b;}
-#ft_newsletter input {color:#FFF; background-color:#000; border-color:#7f7b7b; border-width:1px; margin-top:10px; float:left;}
+#ft_newsletter input {  background:none; margin-top:5px; float:left;}
 #ft_newsletter a{
 	border-color:#7f7b7b;
 	display:block; 
@@ -190,9 +214,73 @@ body {
 	font-size:12px;
 	padding-top:5px;
 }
+#form_newsletter{position:relative; top:0px; left:0px;}
 #ft_newsletter a:hover{background-color:#FFF; color:#000;}
-#ft_tweets{float:left; padding-right:60px;}
-#ft_contact{}
+#email { 
+	border:1px solid #2f2f2f;
+	padding-left:3px;
+	float:left;
+	width:170px;
+	height:20px;
+	margin-right:2px;
+	font-size:11px;
+	color:#999;
+}
+#bt_submit{
+	margin-top:3px;
+	float:left;
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+	display:block; 
+	width:28px; 
+	height:15px; 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:5px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#292929), to(#161616));
+	background: -moz-linear-gradient(0% 56% 90deg,#161616, #292929);
+}
+#bt_submit:hover{
+	background: #FFF;
+	color:#000;
+}
+#ft_isf{
+	float:left;
+	margin-right:20px;
+	display:block; 
+	width:64px; 
+	height:33px; 
+	background: url(../images/sprite_isf.jpg) left top no-repeat;
+}
+#ft_isf:hover{
+	background: url(../images/sprite_isf.jpg) right top no-repeat;
+}
+
+#ft_cedia{
+	float:left;
+	display:block; 
+	width:43px; 
+	height:46px; 
+	background: url(../images/sprite_cedia.jpg) left top no-repeat;
+}
+#ft_cedia:hover{
+	background: url(../images/sprite_cedia.jpg) right top no-repeat;
+}
+
+#ft_haa{
+	clear:both;
+	display:block; 
+	position:relative;
+	top:-11px;
+	width:68px; 
+	height:36px; 
+	background: url(../images/sprite_haa.jpg) left top no-repeat;
+}
+#ft_haa:hover{
+	background: url(../images/sprite_haa.jpg) right top no-repeat;
+}
+
 
 #copyright {
 	position:absolute;
@@ -206,6 +294,7 @@ body {
 }
 #copyright a{
 	color:#FFF;
+	
 }
 #copyright a:hover{
 	text-decoration:underline;
@@ -638,291 +727,6 @@ ul.menu > li ul li a:hover{
 	background: url(../images/sprite_right_arrow.png) right top no-repeat;
 }
 
-/*** Slider ***/
-#brands {
-	position:absolute;
-	top:320px;
-	left:90px;
-	
-}
-#slider ul, #slider li{
-		margin:0;
-		padding:0;
-		list-style:none;
-}
-#slider li{ 
-		/* 
-			define width and height of list item (slide)
-			entire slider area will adjust according to the parameters provided here
-		*/ 
-		width:820px;
-		height:70px;
-		overflow:hidden; 
-}
-#brand_amx{
-	float:left;
-	display:block;
-	width:132px;
-	height:30px;
-	background: url(../images/brands/sprite_01.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_amx:hover{
-	background: url(../images/brands/sprite_01.jpg) right top no-repeat;
-}
 
-#brand_vantage{
-	float:left;
-	display:block;
-	width:105px;
-	height:45px;
-	background: url(../images/brands/sprite_02.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:5px;
-}
-#brand_vantage:hover{
-	background: url(../images/brands/sprite_02.jpg) right top no-repeat;
-}
-
-#brand_sc{
-	float:left;
-	display:block;
-	width:260px;
-	height:39px;
-	background: url(../images/brands/sprite_18.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_sc:hover{
-	background: url(../images/brands/sprite_18.jpg) right top no-repeat;
-}
-
-#brand_mcintosh{
-	float:left;
-	display:block;
-	width:121px;
-	height:32px;
-	background: url(../images/brands/sprite_03.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:17px;
-}
-#brand_mcintosh:hover{
-	background: url(../images/brands/sprite_03.jpg) right top no-repeat;
-}
-
-
-#brand_sony{
-	float:left;
-	display:block;
-	width:212px;
-	height:39px;
-	background: url(../images/brands/sprite_07.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:12px;
-}
-#brand_sony:hover{
-	background: url(../images/brands/sprite_07.jpg) right top no-repeat;
-}
-
-#brand_rotel{
-	float:left;
-	display:block;
-	width:79px;
-	height:40px;
-	background: url(../images/brands/sprite_06.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:12px;
-}
-#brand_rotel:hover{
-	background: url(../images/brands/sprite_06.jpg) right top no-repeat;
-}
-
-#brand_panamax{
-	float:left;
-	display:block;
-	width:217px;
-	height:37px;
-	background: url(../images/brands/sprite_10.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:7px;
-}
-#brand_panamax:hover{
-	background: url(../images/brands/sprite_10.jpg) right top no-repeat;
-}
-
-#brand_ml{
-	float:left;
-	display:block;
-	width:73px;
-	height:45px;
-	background: url(../images/brands/sprite_04.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:7px;
-}
-#brand_ml:hover{
-	background: url(../images/brands/sprite_04.jpg) right top no-repeat;
-}
-
-#brand_xantech{
-	float:left;
-	display:block;
-	width:162px;
-	height:36px;
-	background: url(../images/brands/sprite_13.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:12px;
-}
-#brand_xantech:hover{
-	background: url(../images/brands/sprite_13.jpg) right top no-repeat;
-}
-
-#brand_vidikron{
-	float:left;
-	display:block;
-	width:200px;
-	height:37px;
-	background: url(../images/brands/sprite_12.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:12px;
-}
-#brand_vidikron:hover{
-	background: url(../images/brands/sprite_12.jpg) right top no-repeat;
-}
-
-#brand_stewart{
-	float:left;
-	display:block;
-	width:168px;
-	height:37px;
-	background: url(../images/brands/sprite_08.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:17px;
-}
-#brand_stewart:hover{
-	background: url(../images/brands/sprite_08.jpg) right top no-repeat;
-}
-
-#brand_linn{
-	float:left;
-	display:block;
-	width:45px;
-	height:60px;
-	background: url(../images/brands/sprite_09.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:5px;
-}
-#brand_linn:hover{
-	background: url(../images/brands/sprite_09.jpg) right top no-repeat;
-}
-
-#brand_bw{
-	float:left;
-	display:block;
-	width:183px;
-	height:32px;
-	background: url(../images/brands/sprite_05.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_bw:hover{
-	background: url(../images/brands/sprite_05.jpg) right top no-repeat;
-}
-
-#brand_audioquest{
-	float:left;
-	display:block;
-	width:187px;
-	height:35px;
-	background: url(../images/brands/sprite_14.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_audioquest:hover{
-	background: url(../images/brands/sprite_14.jpg) right top no-repeat;
-}
-
-#brand_marantz{
-	float:left;
-	display:block;
-	width:191px;
-	height:22px;
-	background: url(../images/brands/sprite_15.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:20px;
-}
-#brand_marantz:hover{
-	background: url(../images/brands/sprite_15.jpg) right top no-repeat;
-}
-
-#brand_sonance{
-	float:left;
-	display:block;
-	width:54px;
-	height:70px;
-	background: url(../images/brands/sprite_17.jpg) left top no-repeat;
-	margin-right:50px;
-}
-#brand_sonance:hover{
-	background: url(../images/brands/sprite_17.jpg) right top no-repeat;
-}
-
-#brand_loewe{
-	float:left;
-	display:block;
-	width:206px;
-	height:37px;
-	background: url(../images/brands/sprite_19.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_loewe:hover{
-	background: url(../images/brands/sprite_19.jpg) right top no-repeat;
-}
-
-#brand_cambridge{
-	float:left;
-	display:block;
-	width:250px;
-	height:31px;
-	background: url(../images/brands/sprite_20.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_cambridge:hover{
-	background: url(../images/brands/sprite_20.jpg) right top no-repeat;
-}
-
-#brand_tivoli{
-	float:left;
-	display:block;
-	width:172px;
-	height:37px;
-	background: url(../images/brands/sprite_11.jpg) left top no-repeat;
-	margin-right:50px;
-	position:relative;
-	top:15px;
-}
-#brand_tivoli:hover{
-	background: url(../images/brands/sprite_11.jpg) right top no-repeat;
-}
-/*** End Slider ***/
 
 /***** CENTRAL HOME PAGE MIDDLE BODY SECTION END *****/

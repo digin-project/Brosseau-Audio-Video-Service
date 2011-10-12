@@ -26,7 +26,7 @@
   conference: Conference Rooms
   
   expertise: Expertise
-  certification: Certification
+  certification: Certifications
   newsletter: Newsletter
   last_tweet: Last Tweet
   
@@ -37,6 +37,11 @@
   
   newsletter_stay_informed: Stay up-to-date
   newsletter_on_new_products: on new products
+  newsletter_email: Your email address
+  
+  find_us: Find us
+  questions: Any question?
+  contact_us: Contact us
   
   # SCROLLER
   audio_title: AUDIO

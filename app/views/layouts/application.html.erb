@@ -5,6 +5,7 @@
 <meta name="keywords" content="Brosseau audio video">
 <title>Brosseau | <%= @title %></title>
   <%= stylesheet_link_tag "style" %>
+  <%= stylesheet_link_tag "brands_slider" %>
   <link href="stylesheets/<%=t :localize_css%>.css" rel="stylesheet" />
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
@@ -90,7 +91,19 @@
 						<p><a href="">Vantage</p>
 						<p><a href=""><%=t :other_systems%></a></p>
 					</article>
+
+					<section id="ft_certification">
+						<header><h1><%=t :certification%></h1></header>
+						<article>
+							<a href="http://www.imagingscience.com/" target="_blank" id="ft_isf"></a>
+							<a href="http://www.cedia.net/" target="_blank" id="ft_cedia"></a>
+							<a href="http://www.homeacoustics.net/" target="_blank" id="ft_haa"></a>
+						</article>
+					</section>
+					
 				</section>
+				
+				
 				<section id="ft_newsletter">
 					<header><h1><%=t :newsletter%></h1></header>
 					<article>
@@ -99,24 +112,50 @@
 						    <%=t :newsletter_on_new_products%>
 						</p>
 						<br />
-						<form>
-							<label for="email">Inscription Newsletter</label><br />
-							<input type="text" name="email"></input>
-							<a href="#" id="bt_submit" onClick="document.getElementById('form').submit()">Ok</a>
-							
-						</form>
+						<div id="form_newsletter">
+							<form>
+								<label for="email">Inscription Newsletter</label><br />
+								<input type="text" id="email" name="email" value="--<%=t :newsletter_email%>--" onFocus="resetField()"></input>
+								<a href="#" id="bt_submit" onClick="document.getElementById('form').submit()">ok</a>
+							</form>
+						</div>
 					</article>
-				</section>
-				<section id="ft_certification">
-					<header><h1><%=t :certification%></h1></header>
+					
+					<section id="ft_tweets">
+						<header><h1><%=t :last_tweet%></h1></header>
+						<article id="last_tweet">
+						</article>
+					</section>
+					
 				</section>
 				
-				<section id="ft_tweets">
-					<header><h1><%=t :last_tweet%></h1></header>
-				</section>
+
+				
 				<section id="ft_contact">
 					<header><h1><%=t :contact%></h1></header>
+					<article>
+						<h3><%=t :find_us%></h3>
+						<p>
+							3256 Grande Allée<br />
+							St-Hubert (Longueuil)<br />
+							Qc Canada
+						</p>
+						<a href="http://g.co/maps/9pr7b" target="_blank" title="Google Maps" id="maps"></a>
+						<br />
+						<br />
+						<br />
+						<br />
+					</article>
+					<article id="questions">
+						<h3><%=t :questions%></h3>
+						<p>
+							<%=t :contact_us%>
+						</p>
+						<h2>1 888 678 3430</h2>
+					</article>
 				</section>
+			
+			
 				<section id="copyright">
 					<p><a href=""><%=t :legal%></a> | &copy; 2011 Brosseau. <%=t :rights%> -</p>
 					<p><a href="http://agenceneos.com" target="_blank" id="tag_neos"></a></p>
