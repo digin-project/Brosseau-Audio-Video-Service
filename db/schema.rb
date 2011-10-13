@@ -10,12 +10,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111013144542) do
+ActiveRecord::Schema.define(:version => 20111013162350) do
 
   create_table "actus", :force => true do |t|
     t.string   "texte"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "actus_translations", :force => true do |t|
+    t.integer  "actus_id"
+    t.string   "locale"
+    t.string   "texte"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "actus_translations", ["actus_id", "locale"], :name => "index_actus_translations_on_actus_id_and_locale", :unique => true
 
 end
