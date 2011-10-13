@@ -2,6 +2,7 @@ class PagesController < ApplicationController
   def home
      @title = t :home
      @body_id = "home"
+     @actu = Actus.first
    end
 
     def about
