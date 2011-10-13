@@ -43,6 +43,28 @@
   questions: Any question?
   contact_us: Contact us
   
+  # MENU
+  # about
+  company: The company
+  history: hystory
+  team: The team
+  partners: Our partners
+  # products
+  list: List of Brosseau's brands and partners
+  # automation
+  amx: AMX system
+  new_products: New products
+  guarantee: Our guarantee
+  work: Our work
+  # contact
+  fill: Get in touch with the form below
+  name: Name
+  submit: Submit
+  reset: Reset
+  follow_us: Follow us on social networks
+  dontfill: Don't fill this in
+  
+  
   # SCROLLER
   audio_title: AUDIO
   video_title: VIDEO

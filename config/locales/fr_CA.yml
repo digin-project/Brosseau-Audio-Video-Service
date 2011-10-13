@@ -49,6 +49,27 @@ fr_CA:
   questions: Vous avez des questions?
   contact_us: Contactez-nous
   
+  # MENU
+  # about
+  company: L'entreprise
+  history: L'historique
+  team: L'équipe
+  partners: Nos partenaires
+  # products
+  list: Liste des partenaires / marques de Brosseau
+  # automation
+  amx: Système AMX
+  new_products: Nouveaux produits
+  guarantee: Notre garantie
+  work: Nos réalisations
+  # contact
+  fill: Contactez-nous grâce au formulaire ci-dessous
+  name: Nom
+  submit: Envoyer
+  reset: Effacer
+  follow_us: Suivez-nous sur les réseaux sociaux
+  dontfill: Ne pas remplir cela
+  
   # SCROLLER
   audio_title: AUDIO
   video_title: VIDEO

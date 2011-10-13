@@ -1,0 +1,588 @@
+@font-face {
+	font-family: 'Futura';
+	src: url('fonts/futura_light_bt-webfont.eot');
+	src: local('☺'), url('fonts/futura_light_bt-webfont.woff') format('woff'), url('fonts/futura_light_bt-webfont.ttf') format('truetype'), url('fonts/futura_light_bt-webfont.svg#webfontw7zqO19G') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'LaneNarrowRegular';
+    src: url('fonts/lanenar_-webfont.eot') format('eot'),
+         url('fonts/lanenar_-webfont.woff') format('woff'),
+         url('fonts/lanenar_-webfont.ttf') format('truetype'),
+         url('fonts/lanenar_-webfont.svg#webfontp6HQhsGq') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.menu_header li {
+	float:left;
+	text-align:center;
+	margin-top:6px;
+	border:none;
+	height:20px;
+	margin-right:70px;
+	width:70px;
+}
+
+.menu_header li:hover {
+	border-bottom:none;
+
+}
+
+.menu_header li a {
+	color: #FFF;
+	outline:0;
+	text-decoration:none;
+	display:block;
+	height:40px;
+	font-family: 'LaneNarrowRegular', Verdana, sans-serif;
+	font-size:16px;
+}
+.menu_header li:hover a {
+	color:#ffffff;
+	text-shadow: none;
+	position:relative;
+	z-index:11;
+	padding:0;
+}
+.menu_header li:hover div a {
+	display:inline;
+}
+
+#about:hover .drop {
+	background:url("img/drop_dark.png") no-repeat;
+	background-position:-40px 26px ;
+}
+#products:hover .drop {
+	background:url("img/drop_dark.png") no-repeat;
+	background-position:-40px 26px ;
+}
+#automation:hover .drop {
+	background:url("img/drop_dark.png") no-repeat;
+	background-position:-20px 26px ;
+}
+#contact:hover .drop {
+	background:url("img/drop_dark.png") no-repeat;
+	background-position:-40px 26px ;
+}
+
+/* Right aligned menu item */
+
+.menu_header .right {
+	float:right;
+	right:0;
+	margin-right:0px;
+}
+.menu_header li.right:hover {
+	margin-right:-1px;
+}
+
+
+
+/*  _______________________________________
+
+	02 DROP DOWN MENU
+    _______________________________________  */
+
+
+
+/* Left & right aligned common styles */
+
+.menu_header .dropdown_1column, 
+.menu_header .dropdown_2columns, 
+.menu_header .dropdown_3columns, 
+.menu_header .dropdown_4columns,
+.menu_header .dropdown_5columns,
+.menu_header .dropdown_fullwidth {
+	margin:4px auto;
+	left:-999em;
+	position:absolute;
+	background:#535353;
+	padding:10px;
+	text-align:left;
+}
+
+/* Drop Downs Sizes */
+
+.menu_header .dropdown_1column {width: 145px;}
+.menu_header .dropdown_2columns {width: 220px;}
+.menu_header .dropdown_3columns {width: 455px;}
+.menu_header .dropdown_4columns {width: 610px;}
+.menu_header .dropdown_5columns {width: 765px;}
+
+
+/* Showing Drop Down on Mouse Hover - Left aligned */
+
+.menu_header li:hover #menu_about  {
+	left:139px;
+	top:38px;
+}
+.menu_header li:hover #menu_products  {
+	left:200px;
+	top:38px;
+}
+.menu_header li:hover #menu_automation  {
+	left:400px;
+	top:38px;
+}
+.menu_header li:hover #menu_contact  {
+	left:540px;
+	top:38px;
+}
+#menu_about {width:190px; height:110px;}
+#menu_products {width:227px; height:240px;}
+#menu_automation {width:201px; height:229px;}
+#menu_contact {width:300px; height:425px;}
+
+
+/* Showing Drop Down on Mouse Hover - Right aligned */
+
+.menu_header li .align_right {
+	/* Rounded Corners */
+	-moz-border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 0px 5px 5px;
+    border-radius: 5px 0px 5px 5px;
+}
+.menu_header li:hover .align_right {
+	left:auto;
+	right:-1px;
+	top:25px;
+}
+
+
+
+.menu_header li .align_center {
+	/* Rounded Corners */
+	-moz-border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 0px 5px 5px;
+    border-radius: 5px 0px 5px 5px;
+}
+.menu_header li:hover .align_center {
+	left:-100px;
+	top:25px;
+}
+
+
+/* Columns Sizes */
+
+.menu_header .col_1,
+.menu_header .col_2,
+.menu_header .col_3,
+.menu_header .col_4,
+.menu_header .col_5,
+.menu_header .col_6 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+.menu_header .col_1 {width:135px;}
+.menu_header .col_2 {width:300px;}
+.menu_header .col_3 {width:455px;}
+.menu_header .col_4 {width:610px;}
+.menu_header .col_5 {width:765px;}
+.menu_header .col_6 {width:920px;}
+
+/* IMPORTANT */
+
+/* Use the firstcolumn class for the items that stick to the left edge of the dropdown */
+.menu_header .firstcolumn {
+	margin-left: 0; /* Clearing margin & left */
+	clear: left;
+}
+
+
+
+/*  _______________________________________
+
+	03 CONTENT STYLING
+    _______________________________________  */
+
+
+
+.menu_header p,
+.menu_header ul,
+.menu_header li,
+.menu_header h2,
+.menu_header h3 {
+	color:#ffffff;
+	font-size:14px; 
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:21px;
+	text-align:left;
+}
+.menu_header p {
+	font-size:12px;
+	line-height:18px;
+	margin:0;
+	margin-bottom:10px;
+}
+.menu_header .strong {
+	font-weight:bold;
+}
+.menu_header .italic {
+	font-style:italic;
+}
+.menu_header h2, 
+.menu_header h3 {
+	line-height:15px;
+	font-size:14px; 
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-top:13px;
+}
+
+.menu_header h2 {
+	font-weight:400;
+	font-size:21px;
+	margin-bottom:18px;
+	padding-bottom:11px;
+}
+
+.menu_header li:hover div a {
+	text-decoration:none;
+	text-shadow:none;
+	border:none;
+	padding:0;
+}
+.menu_header .pusher { /* Use this pucher if you want to give more vertical spacing between your rows of content */
+	margin-top:18px;
+}
+
+/* Icon paragraphs */
+
+.menu_header .help,
+.menu_header .favorite,
+.menu_header .mail,
+.menu_header .print {
+	padding-left:36px;
+	margin-bottom:18px;
+}
+.menu_header .help {background:url("img/help.png") no-repeat 0px 2px;}
+.menu_header .favorite {background:url("img/favorite.png") no-repeat 0px 2px;}
+.menu_header .mail {background:url("img/mail.png") no-repeat 0px 2px;}
+.menu_header .print {background:url("img/print.png") no-repeat 0px 2px;}
+
+/* Images styles */
+.menu_header .imgshadow_dark { /* Better style on dark background */
+	background:#FFFFFF;
+	padding:4px;
+	border:1px solid #333333;
+	margin-top:5px;
+	-moz-box-shadow:0px 0px 5px #000000;
+	-webkit-box-shadow:0px 0px 5px #000000;
+	box-shadow:0px 0px 5px #000000;
+}
+.menu_header .imgshadow_light { /* Better style on light background */
+	background:#FFFFFF;
+	padding:4px;
+	border:1px solid #777777;
+	margin-top:5px;
+	-moz-box-shadow:0px 0px 5px #000000;
+	-webkit-box-shadow:0px 0px 5px #000000;
+	box-shadow:0px 0px 5px #000000;
+}
+.menu_header .img_left { /* Image sticks to the left */
+	width:auto;
+	float:left;
+	margin:2px 15px 5px 0px;
+}
+.menu_header .img_right { /* Image sticks to the right */
+	width:auto;
+	float:right;
+	margin:2px 0px 5px 15px;
+}
+
+/* Box styles */
+
+.menu_header li .black_box,
+.menu_header li .dark_grey_box {
+	color: #eeeeee;
+	text-shadow: 1px 1px 1px #000;
+	padding:4px 6px 4px 6px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	background-color:#0A0A0A;
+	-webkit-box-shadow:inset 0 0 3px #000000;
+	-moz-box-shadow:inset 0 0 3px #000000;
+	box-shadow:inset 0 0 3px #000000;
+}
+
+/* Standard lists styles */
+
+.menu_header li ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 12px 0;
+}
+.menu_header li ul li {
+	font-size:12px;
+	position:relative;
+	padding:0;
+	margin:0;
+	float:left;
+	text-align:left;
+	width:145px;
+}
+.menu_header li ul li a {
+	padding:0;
+	color:#b4b4b4;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+}
+.menu_header li ul li:hover {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+/* Greybox lists styles */
+
+.menu_header li .greybox li {
+	background:#0A0A0A;
+	border:1px solid #000000;
+	margin:0px 0px 4px 0px;
+	padding:4px 6px 4px 6px;
+	width:131px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.menu_header li .greybox li:hover {
+	background:#141414;
+	border:1px solid #111111;
+	padding:4px 6px 4px 6px;
+	margin:0px 0px 4px 0px;
+}
+
+/* Other lists styles */
+
+.menu_header li .plus li {
+	background: url("img/plus_dark.png") left 6px no-repeat;
+	margin:0px 0px 4px 0px;
+	padding:0px 0px 0px 21px;
+	width:109px;
+}
+.menu_header li .plus li:hover {
+	background: url("img/plus_dark.png") left 6px no-repeat;
+	padding:0px 0px 0px 21px;
+	margin:0px 0px 4px 0px;
+}
+
+/* Social Icons */
+
+.menu_header li ul.social {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu_header li ul.social li {
+	padding-top:5px;
+	margin:0 12px 12px 0;
+	float:left;
+	position:relative;
+	display:inline;
+	width:32px;
+}
+.menu_header li ul.social li img {
+	border:none;
+}
+.menu_header li ul.social li:hover {
+	padding-top:5px;
+	margin:-1px 12px 12px 0;
+}
+.menu_header li ul.social li span {
+	display:none;
+}
+
+/* 2-Levels Drop Down */
+
+.menu_header .levels, .menu_header .levels ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu_header li:hover .levels a {
+	display:block;
+}
+.menu_header .levels a {
+	display: block;
+	width: 10em;
+}
+.menu_header .levels a.parent, .menu_header .levels a.parent:hover {
+	background: url("img/drop2_dark.png") right center no-repeat;
+}
+.menu_header .levels li {
+	float: left;
+	width:180px;
+	background: url("img/drop2_dark.png") right center no-repeat;
+}
+.menu_header .levels li:hover {
+	background: url("img/drop2_dark.png") right center no-repeat;
+}
+.menu_header .levels li ul { /* second-level lists */
+	position: absolute;
+	background:#535353;
+	border:1px solid #000000;
+	top:-23px;
+	margin:15px 0px 0px 4px;
+	padding:6px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+	background: -moz-linear-gradient(top, #161616, #0A0A0A);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#161616), to(#0A0A0A));
+	background: -o-linear-gradient(top, #161616, #0A0A0A);
+	left: -999em;
+}
+.menu_header .levels li ul ul {
+	top:-23px;
+}
+.menu_header .levels li:hover ul ul, .menu_header .levels li:hover ul ul ul {
+	left: -999em;
+}
+.menu_header .levels li:hover ul, .menu_header .levels li li:hover ul, .menu_header .levels li li li:hover ul {
+	left: 142px;
+}
+
+
+
+/*  _______________________________________
+
+	04 CONTACT FORM
+    _______________________________________  */
+
+
+
+#contact_form label, legend {
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#contact_form legend {
+	margin-bottom:10px;
+}
+#contact_form {
+	display: block;
+	margin-bottom:10px;
+}
+#contact_form label {
+	display: inline-block; 
+	float: left; 
+	height: 36px; 
+	line-height: 36px; 
+	width:80px;
+	font-size:12px; 
+}
+#contact_form input, textarea, select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:200px;
+	padding: 5px;
+	color: #FFFFFF; 
+	background-color:#222222;
+	border:1px solid #0A0A0A;
+	margin: 7px 0; 
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}   
+#contact_form textarea {
+	resize:none;
+}   
+#contact_form input:focus, textarea:focus, select:focus {
+	box-shadow: rgba(0,0,0, 0.7) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.7) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.7) 0px 0px 8px;  
+	border:1px solid #333333;
+}
+#contact_form input:hover, textarea:hover, select:hover {
+	box-shadow: rgba(0,0,0, 0.3) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.3) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.3) 0px 0px 8px;  
+}
+#contact_form .required {
+	color:#C00;
+}
+#contact_form .form_buttons {
+	margin:4px 0 0 80px;
+}
+#contact_form input.button {
+	width: 80px;
+	margin-right:10px;
+	cursor: pointer;
+	background-color:#1E1E1E;
+	border:1px solid #0A0A0A;
+	color:#cccccc;	
+	padding: 4px 7px 4px 7px;
+}
+#contact_form input.button:hover {
+	color:#eeeeee;	
+	background-color:#222222;
+	border:1px solid #000000;
+}
+#contact_form .special {
+	display:none;
+}
+#contact_form .error, #contact_form .sent {
+	font-size:11px;
+	padding:2px 5px 2px 5px;
+	text-shadow:none;
+	-moz-border-radius:3px; 
+	-webkit-border-radius:3px; 
+	border-radius: 3px;
+}
+#contact_form .error {
+	background:#FBE5E2; 
+	border:#F2A197 solid 1px; 
+	color:#992213;
+}
+#contact_form .sent {
+	background:#E1F8CB; 
+	border:#C6D880 solid 1px; 
+	color:#37620d;
+}
+
+
+
+/*  _______________________________________
+
+	05 COLORS
+    _______________________________________  */
+
+
+
+/* Black */
+
+.menu_black {
+	background: #333;
+	background: -moz-linear-gradient(top, #555, #2a2a2a);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555), to(#2a2a2a));
+	background: -o-linear-gradient(top, #555, #2a2a2a);
+}
+#wrapper_menu .menu_black {
+	border: 1px solid #444;
+	border-top: 1px solid #777;
+}
+#wrapper_menu_full .menu_black {
+	border-bottom: 1px solid #444;
+}
+.menu_black li:hover div a {
+	color:#CCC;
+}
+.menu_black li:hover div a:hover {
+	color:#EEE;
+}
+.menu_black li ul li a:hover {
+	color:#EEE;
+}
+
+
