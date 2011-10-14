@@ -8,7 +8,7 @@ ActiveAdmin::Dashboards.build do
            end
      end
 
-     section "Les nouveautés" do
+     section "Les nouveautes" do
         ul do
               Nouveaute.find(:all, :limit => 5) do |nouveaute|
                 li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
