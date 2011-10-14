@@ -7,13 +7,13 @@
 	<!-- ************************************** -->    
 	<!-- ************* HOME ******************* -->
 	<!-- ************************************** -->
-    <li><a href="#" class="no_drop"><%=t :home%></a></li>
+    <li><%= link_to((t :home), root_path) %></li>
 
 
 	<!-- ************************************** -->    
 	<!-- ************* ABOUT ****************** -->
 	<!-- ************************************** -->
-    <li id="about"><a href="#" class="drop"><%=t :about%></a>
+    <li id="about"><%= link_to((t :about), apropos_path) %>
     	<div class="dropdown_1column" id="menu_about">
         	<div class="col_1 firstcolumn">
 				<h3><%=t :company%></h3>
@@ -30,7 +30,7 @@
 	<!-- ************************************** -->    
 	<!-- ************* PRODUCTS *************** -->
 	<!-- ************************************** -->
-    <li id="products"><a href="#" class="drop"><%=t :products%></a>
+    <li id="products"><%= link_to((t :products), produits_path) %>
     	<div class="dropdown_2columns align_center"  id="menu_products">
             <h3><%=t :list%></h3>
         	<div class="col_1 firstcolumn">
@@ -65,7 +65,7 @@
 	<!-- ************************************** -->    
 	<!-- ************* AUTOMATION ************* -->
 	<!-- ************************************** -->   
-    <li id="automation"><a href="#" class="drop"><%=t :automation%></a>
+    <li id="automation"><%= link_to((t :automation), automatisation_path) %>
 		<div class="dropdown_1column" id="menu_automation">
 			<div class="col_1 firstcolumn">
 				<ul class="levels">

@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'will_paginate', '3.0.pre2'
 
 gem 'puret'
+gem 'activeadmin'
 
 group :development do
   gem 'annotate', '2.4.0'

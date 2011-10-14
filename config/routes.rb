@@ -1,4 +1,12 @@
 Brosseau::Application.routes.draw do
+  get "articles/show"
+
+  get "articles/read"
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   match '/apropos',   :to => 'pages#about'
   match '/produits',    :to => 'pages#products'
   match '/automatisation', :to => 'pages#automation'
