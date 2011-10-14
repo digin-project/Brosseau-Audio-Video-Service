@@ -1,1 +1,6 @@
-<%=@actus.texte %>
+<%=if @actus != nil
+	@actus.texte 
+	else
+		"-------"
+   end
+%>
