@@ -1,6 +1,13 @@
-<%=if @actus != nil
-	@actus.texte 
-	else
-		"-------"
-   end
-%>
+<ul id="flash_infos2">
+	<% if @actus != nil 
+		@actus.each do |actu| %>
+		<li class="tata">
+			<%= actu.texte.html_safe %>
+		</li>
+		<% end %>
+	<% else %>
+		<li class="tata">--------</li>
+	<% end %>
+</ul>
+
+

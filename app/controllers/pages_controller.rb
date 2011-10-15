@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
      @title = t :home
      @body_id = "home"
-     @actus = Actus.first
+     @actus = Actus.find( :all, :limit => 5)
    end
 
     def about

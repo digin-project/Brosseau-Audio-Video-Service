@@ -4,9 +4,10 @@
 <meta charset="utf-8" />
 <meta name="keywords" content="Brosseau audio video">
 <title>Brosseau | <%= @title %></title>
-  <%= stylesheet_link_tag "style" %>
+  
   <%= stylesheet_link_tag "menu" %>
   <%= stylesheet_link_tag "brands_slider" %>
+<%= stylesheet_link_tag "style" %>
   <link href="stylesheets/<%=t :localize_css%>.css" rel="stylesheet" />
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
@@ -29,8 +30,8 @@
 				<h1 id="logo"><%=link_to "", root_path%></h1>
 				<p id="phone">1 888 678 3430</p>
 				<p id="social">
-					<%=link_to "Facebook", "", :target => "_blank" %>
-					<%=link_to "Twitter", "", :target => "_blank" %>
+					<%=link_to "Facebook", "https://www.facebook.com/pages/Brosseau-Audio-Video-Services/122812097826905", :target => "_blank" %>
+					<%=link_to "Twitter", "http://twitter.com/#!/BrosseauAVS", :target => "_blank" %>
 				</p>
 				<p id="i18n">
 					<%= link_to 'FR', url_for( :locale => 'fr_CA' )%>
@@ -119,20 +120,38 @@
 						</p>
 						<br />
 						<div id="form_newsletter">
-							<form>
+							<form action="http://brosseau.us2.list-manage.com/subscribe/post?u=00c10ad0f1bbaae61ee5c3b28&amp;id=93cc7e1c09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 								<label for="email">Inscription Newsletter</label><br />
-								<input type="text" id="email" name="email" value="--<%=t :newsletter_email%>--" onFocus="resetField()"></input>
-								<a href="#" id="bt_submit" onClick="document.getElementById('form').submit()">ok</a>
+								<input type="text" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"  onFocus="resetField()" placeholder="email address" required></input>
+								<input type="submit" id="bt_submit" value="Ok" name="subscribe" id="mc-embedded-subscribe" class="button">
 							</form>
+							
+							
+							
+							<!-- Begin MailChimp Signup Form 
+						
+							<div id="mc_embed_signup">
+							<form action="http://brosseau.us2.list-manage.com/subscribe/post?u=00c10ad0f1bbaae61ee5c3b28&amp;id=93cc7e1c09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+								<label for="mce-EMAIL">Subscribe to our mailing list</label>
+								<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</form>
+							</div>
+
+						-->
+							
+							
 						</div>
 					</article>
 					
 					<section id="ft_tweets">
 						<header><h1><%=t :last_tweet%></h1></header>
 						<article id="last_tweet">
+						<!--	<ul id="twitter_update_list" ><li></li></ul></div>
+						</div>	-->
 						</article>
 					</section>
-					
+				
 				</section>
 				
 
@@ -177,6 +196,9 @@
 	<script src="javascripts/jquery.easing-1.3.pack.js"></script>
 	<script src="javascripts/easySlider1.7.js"></script>
 	<script src="javascripts/application.js"></script>
+	<script src="javascripts/jquery.innerfade.js"></script>
+	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/agenceneos.json?callback=twitterCallback2&count=2"></script>
 	
 
 	

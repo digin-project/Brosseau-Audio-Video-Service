@@ -1,10 +1,18 @@
 	$(document).ready(function(){
+		
 		$("#slider").easySlider({
 			auto: true, 
 			continuous: true, 
 			controlsShow:		false,
 			pause: 3500,
 			speed: 1500
+		});
+		
+		$('#flash_infos2').innerfade({
+			speed: 'slow',
+			timeout: 4000,
+			type: 'sequence',
+			containerheight: '55px'
 		});
 	});
 	
