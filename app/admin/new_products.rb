@@ -1,5 +1,5 @@
 ActiveAdmin.register NewProduct do
-  menu :parent => "Nouveautés", :label => "english"
+  menu :parent => "Nouveautes", :label => "english"
   index do
       column :titre do |new_product|
         link_to new_product.titre, admin_new_product_path(new_product)
