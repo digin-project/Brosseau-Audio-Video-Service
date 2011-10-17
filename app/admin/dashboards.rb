@@ -1,6 +1,6 @@
 ActiveAdmin::Dashboards.build do
 
-    section "Actualités (fr)" do
+    section "Actualites (fr)" do
       ul do
    		  Actus.find(:all, :limit => 5) do |actu|
      		  li link_to(actu.texte, admin_actu_path(actu))
@@ -8,7 +8,7 @@ ActiveAdmin::Dashboards.build do
   	  end
 	  end
 
-    section "Actualités (en)" do
+    section "Actualites (en)" do
       ul do
  		    ActusEn.find(:all, :limit => 5) do |news|
    		    li link_to(news.texte, admin_news_path(news))
@@ -16,7 +16,7 @@ ActiveAdmin::Dashboards.build do
 	    end
     end
 	  
-    section "Nouveautés (fr)" do
+    section "Nouveautes (fr)" do
   	  ul do
   		  Nouveaute.find(:all, :limit => 5) do |nouveaute|
   			  li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
@@ -24,7 +24,7 @@ ActiveAdmin::Dashboards.build do
   	  end
   	end
   	
-  	section "Nouveautés (en)" do
+  	section "Nouveautes (en)" do
   	  ul do
   		  NewProduct.find(:all, :limit => 5) do |nouveaute|
   			  li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
