@@ -1,5 +1,5 @@
 ActiveAdmin.register Nouveaute do
-
+  menu :parent => "Nouveautés", :label => "français"
   index do
       column :titre do |nouveaute|
         link_to nouveaute.titre, admin_nouveaute_path(nouveaute)

@@ -1,7 +1,8 @@
-ActiveAdmin.register Article do
+ActiveAdmin.register Article , :as => "Avis Expert" do
+  menu :parent => "Avis de l'expert", :label => "français"
   index do
     column :titre do |article|
-      link_to article.titre, admin_article_path(article)
+      link_to article.titre, admin_avis_expert_path(article)
     end
     column :created_at  
     column :updated_at 

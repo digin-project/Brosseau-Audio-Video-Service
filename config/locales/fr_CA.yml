@@ -10,7 +10,10 @@
 
 fr_CA:
      
+  # localized CSS    
   localize_css: localize_fr
+  # localized PARTIALS
+  partial_news : actus
    
   # HEADER  
   home: Accueil
@@ -135,7 +138,7 @@ fr_CA:
       any: "N'importe lequel"
       blank_slate:
         content: "Il n'y a pas encore de %{resource_name}."
-        link: "Créez en un"
+        link: "Créez en 1"
   
   
   

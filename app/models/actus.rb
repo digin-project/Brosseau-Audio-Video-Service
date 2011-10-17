@@ -9,7 +9,6 @@
 #
 
 class Actus < ActiveRecord::Base
-  puret :texte
   attr_accessible :texte
   
   default_scope :order => 'actus.created_at DESC'

@@ -1,0 +1,15 @@
+<h1>Version Française</h1>
+<%=
+	ul do
+ 		Actus.find(:all, :limit => 5) do |actu|
+   			li link_to(actu.texte, admin_actu_path(actu))
+ 		end
+	end
+
+
+	ul do
+		Nouveaute.find(:all, :limit => 5) do |nouveaute|
+			li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
+		end
+	end
+%>

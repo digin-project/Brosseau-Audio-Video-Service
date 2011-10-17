@@ -1,4 +1,5 @@
 ActiveAdmin.register Aubaine do
+  menu :parent => "Aubaines", :label => "français"
   index do
      column :titre do |aubaine|
        link_to aubaine.titre, admin_aubaine_path(aubaine)

@@ -1,8 +1,8 @@
-ActiveAdmin.register Actus do
-  menu :parent => "Actualités", :label => "français"
+ActiveAdmin.register ActusEn , :as => "News" do
+  menu :parent => "Actualités", :label => "english"
   index do
     column :texte do |actu|
-      link_to actu.texte, admin_actu_path(actu)
+      link_to actu.texte, admin_news_path(actu)
     end
     column :created_at  
     column :updated_at 

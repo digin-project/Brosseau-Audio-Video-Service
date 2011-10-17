@@ -2,7 +2,11 @@ class PagesController < ApplicationController
   def home
      @title = t :home
      @body_id = "home"
-     @actus = Actus.find( :all, :limit => 5)
+     if I18n.locale == :fr_CA
+       @actus = Actus.find( :all, :limit => 5)
+     else
+       @actus = ActusEn.find( :all, :limit => 5)
+     end
    end
 
     def about

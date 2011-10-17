@@ -1,22 +1,39 @@
 ActiveAdmin::Dashboards.build do
-  
-    section "Les actus" do
-       ul do
-             Actus.find(:all, :limit => 5) do |actu|
-               li link_to(actu.texte, admin_actu_path(actu))
-             end
-           end
-     end
 
-     section "Les nouveautes" do
-        ul do
-              Nouveaute.find(:all, :limit => 5) do |nouveaute|
-                li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
-              end
-            end
-     end
-     
-     section "L'avis de l'expert" do
+    section "Actualités (fr)" do
+      ul do
+   		  Actus.find(:all, :limit => 5) do |actu|
+     		  li link_to(actu.texte, admin_actu_path(actu))
+   		  end
+  	  end
+	  end
+
+    section "Actualités (en)" do
+      ul do
+ 		    ActusEn.find(:all, :limit => 5) do |news|
+   		    li link_to(news.texte, admin_news_path(news))
+ 		    end
+	    end
+    end
+	  
+    section "Nouveautés (fr)" do
+  	  ul do
+  		  Nouveaute.find(:all, :limit => 5) do |nouveaute|
+  			  li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
+  		  end
+  	  end
+  	end
+  	
+  	section "Nouveautés (en)" do
+  	  ul do
+  		  NewProduct.find(:all, :limit => 5) do |nouveaute|
+  			  li link_to(nouveaute.titre, admin_nouveaute_path(nouveaute))
+  		  end
+  	  end
+  	end
+  	  
+  	       
+     section "L'avis de l'expert (fr)" do
          ul do
                 Article.find(:all, :limit => 5) do |article|
                   li link_to(article.titre, admin_article_path(article))
@@ -24,14 +41,30 @@ ActiveAdmin::Dashboards.build do
               end
       end
       
+      section "L'avis de l'expert (en)" do
+           ul do
+                  Advice.find(:all, :limit => 5) do |article|
+                    li link_to(article.titre, admin_article_path(article))
+                  end
+                end
+        end
       
-       section "Les aubaines" do
+      
+       section "Les aubaines (fr)" do
            ul do
                   Aubaine.find(:all, :limit => 5) do |aubaine|
                     li link_to(aubaine.titre, admin_aubaine_path(aubaine))
                   end
                 end
         end
+        
+        section "Les aubaines (en)" do
+             ul do
+                    Sale.find(:all, :limit => 5) do |aubaine|
+                      li link_to(aubaine.titre, admin_aubaine_path(aubaine))
+                    end
+                  end
+          end
     
   # == Simple Dashboard Section
   # Here is an example of a simple dashboard section

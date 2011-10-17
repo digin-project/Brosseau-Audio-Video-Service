@@ -4,7 +4,10 @@
 
 "en_CA":
     
+  # localized CSS    
   localize_css: localize_en
+  # localized PARTIALS
+  partial_news : actus_en
   
   # HEADER
   home: Home
