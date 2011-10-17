@@ -1,5 +1,5 @@
 ActiveAdmin.register Sale do
-  menu :parent => "Aubaines", :label => "english"
+  menu :parent => "Aubaines", :label => "en"
   index do
      column :titre do |sale|
        link_to sale.titre, admin_sale_path(sale)

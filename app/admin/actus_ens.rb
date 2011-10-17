@@ -1,5 +1,5 @@
 ActiveAdmin.register ActusEn , :as => "News" do
-  menu :parent => "Actualites", :label => "english"
+  menu :parent => "Actualites", :label => "en"
   index do
     column :texte do |actu|
       link_to actu.texte, admin_news_path(actu)

@@ -1,5 +1,5 @@
 ActiveAdmin.register Advice, :as => "Expert Advice" do
-  menu :parent => "Avis de l'expert", :label => "english"
+  menu :parent => "Avis de l'expert", :label => "en"
   
    index do
      column :titre do |advice|

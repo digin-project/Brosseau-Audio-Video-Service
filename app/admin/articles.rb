@@ -1,5 +1,5 @@
 ActiveAdmin.register Article , :as => "Avis Expert" do
-  menu :parent => "Avis de l'expert", :label => "français"
+  menu :parent => "Avis de l'expert", :label => "fr"
   index do
     column :titre do |article|
       link_to article.titre, admin_avis_expert_path(article)
