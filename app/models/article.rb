@@ -14,4 +14,8 @@ class Article < ActiveRecord::Base
   attr_accessible :titre, :texte, :image
   
   default_scope :order => 'articles.created_at DESC'
+  
+  has_attached_file :image, :styles => { :medium => "150x150>"}
+  
+
 end

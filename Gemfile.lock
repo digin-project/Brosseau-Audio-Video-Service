@@ -41,6 +41,7 @@ GEM
     arel (2.0.10)
     bcrypt-ruby (3.0.1)
     builder (2.1.2)
+    cocaine (0.2.0)
     devise (1.4.8)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
@@ -73,6 +74,11 @@ GEM
     mime-types (1.16)
     nokogiri (1.5.0)
     orm_adapter (0.0.5)
+    paperclip (2.4.0)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
     polyglot (0.3.2)
     puret (1.0.3)
     rack (1.2.4)
@@ -119,6 +125,7 @@ DEPENDENCIES
   activeadmin
   annotate (= 2.4.0)
   faker (= 0.3.1)
+  paperclip (= 2.4)
   puret
   rails (= 3.0.9)
   sqlite3

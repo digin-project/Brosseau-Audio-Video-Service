@@ -11,6 +11,7 @@ gem 'will_paginate', '3.0.pre2'
 
 gem 'puret'
 gem 'activeadmin'
+gem 'paperclip', '2.4'
 
 group :development do
   gem 'annotate', '2.4.0'

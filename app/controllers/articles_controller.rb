@@ -3,9 +3,9 @@ class ArticlesController < ApplicationController
      @title = t :expert_title
      @body_id = "secondary"
      if I18n.locale == :fr_CA
-       @expert = Article.find(1) 
+       @expert = Article.first 
      else
-       @expert = Advice.find(1) 
+       @expert = Advice.first
      end
   end
 
