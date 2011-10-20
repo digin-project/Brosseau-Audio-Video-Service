@@ -36,7 +36,7 @@ ActiveAdmin::Dashboards.build do
      section "L'avis de l'expert (fr)" do
          ul do
                 Article.find(:all, :limit => 5) do |article|
-                  li link_to(article.titre, admin_article_path(article))
+                  li link_to(article.titre, admin_avis_expert_path(article))
                 end
               end
       end
@@ -44,7 +44,7 @@ ActiveAdmin::Dashboards.build do
       section "L'avis de l'expert (en)" do
            ul do
                   Advice.find(:all, :limit => 5) do |article|
-                    li link_to(article.titre, admin_article_path(article))
+                    li link_to(article.titre, admin_expert_advice_path(article))
                   end
                 end
         end

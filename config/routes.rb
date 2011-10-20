@@ -1,8 +1,8 @@
 Brosseau::Application.routes.draw do
-  get "articles/show"
+  resources :articles
 
-  get "articles/read"
-
+  match '/expert',   :to => 'articles#show'
+  
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config

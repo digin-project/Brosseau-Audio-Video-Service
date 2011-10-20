@@ -10,7 +10,7 @@ ActiveAdmin.setup do |config|
   # Set the link url for the title. For example, to take 
   # users to your main site. Defaults to no link.
   #
-  # config.site_title_link = "/"
+  config.site_title_link = "/"
 
   # == Default Namespace
   #
@@ -78,7 +78,7 @@ ActiveAdmin.setup do |config|
   # by adding them to the comments array.
   #
   # Default:
-  # config.allow_comments_in = [:admin]
+  config.allow_comments_in = []
 
 
   # == Controller Filters

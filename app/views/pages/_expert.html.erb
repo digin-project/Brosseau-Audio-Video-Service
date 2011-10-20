@@ -1,0 +1,9 @@
+<h2><%= if @expert != nil
+	 @expert.titre 
+	else
+		"VIDE"
+	end
+	%></h2>
+<p>
+<%= @expert.texte[0, 256 ] + "(...)" %>
+</p>

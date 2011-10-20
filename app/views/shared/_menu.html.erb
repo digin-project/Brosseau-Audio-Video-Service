@@ -1,0 +1,125 @@
+
+
+
+<ul class="menu_header  menu_black">
+       
+    
+	<!-- ************************************** -->    
+	<!-- ************* HOME ******************* -->
+	<!-- ************************************** -->
+    <li id="home"><%= link_to((t :home), root_path) %></li>
+
+
+	<!-- ************************************** -->    
+	<!-- ************* ABOUT ****************** -->
+	<!-- ************************************** -->
+    <li id="about"><%= link_to((t :about), apropos_path, :class => "drop") %>
+    	<div class="dropdown_1column" id="menu_about">
+        	<div class="col_1 firstcolumn">
+				<h3><%=t :company%></h3>
+                <ul class="levels">
+                	<li><a href="#"><%=t :history%></a></li>
+                    <li><a href="#"><%=t :team%></a></li>
+                    <li><a href="#"><%=t :partners%></a></li>
+                </ul>    
+            </div>
+        </div>
+	</li>
+
+
+	<!-- ************************************** -->    
+	<!-- ************* PRODUCTS *************** -->
+	<!-- ************************************** -->
+    <li id="products"><%= link_to((t :products), produits_path, :class => "drop") %>
+    	<div class="dropdown_2columns align_center"  id="menu_products">
+            <h3><%=t :list%></h3>
+        	<div class="col_1 firstcolumn">
+            	<ul>
+                	<li><a href="#">AMX</a></li>
+                    <li><a href="#">Vantage</a></li>
+                    <li><a href="#">Linn</a></li>
+                    <li><a href="#">Rotel</a></li>
+                    <li><a href="#">Sim Audio</a></li>
+                    <li><a href="#">Loewe</a></li>
+                    <li><a href="#">Marantz</a></li>
+                    <li><a href="#">Teac</a></li>
+                </ul>   
+         	</div>
+            <div class="col_1">
+            	<ul>
+                	<li><a href="#">Blue Moon</a></li>
+	                <li><a href="#">B&W</a></li>
+	                <li><a href="#">Paradigm</a></li>
+	                <li><a href="#">Audioquest</a></li>
+	                <li><a href="#">Cardass</a></li>
+	                <li><a href="#">Bell'o</a></li>
+	                <li><a href="#">Panasonic</a></li>
+	                <li><a href="#">Sony</a></li>
+                 </ul>   
+          	</div>
+    	</div>
+	</li>
+	
+	
+	
+	<!-- ************************************** -->    
+	<!-- ************* AUTOMATION ************* -->
+	<!-- ************************************** -->   
+    <li id="automation"><%= link_to((t :automation), automatisation_path, :class => "drop") %>
+		<div class="dropdown_1column" id="menu_automation">
+			<div class="col_1 firstcolumn">
+				<ul class="levels">
+					<h3><%=t :automation%></h3>
+                    <li><a href="#"><%=t :amx%></a></li>
+					<li><a href="#">Vantage</a></li>
+					<li><a href="#"><h3>Expertise</h3></a></li>
+                    <li><a href="#"><h3><%=t :new_products%></h3></a></li>
+					<li><a href="#"><h3><%=t :guarantee%></h3></a></li>
+					<li><a href="#"><h3><%=t :work%></h3></a></li>
+              	</ul>   
+			</div>
+		</div>
+ 	</li>
+
+
+	<!-- ************************************** -->    
+	<!-- **************** CONTACT  ************ -->
+	<!-- ************************************** -->    
+    <li id="contact"><a href="#" class="drop"><%=t :contact%></a>
+    	<div class="dropdown_2columns"  id="menu_contact">
+        	<div class="col_2 firstcolumn">
+            	<h3><%=t :contact_us%></h3>
+				<p><%=t :fill%></p>
+    			<div id="contact_form">
+                	<div class="message">
+                    	<div id="alert"></div>
+                    </div>
+                 	<form method="post" action="form/sendmail.php" id="contactForm">
+                        <label for="name"><%=t :name%><span class="required"> *</span></label>
+                        <input name="name" type="text" id="name" size="30" value="" autocomplete="off" /> 
+                        <br />
+                        <label for="email">Email<span class="required"> *</span></label>
+                        <input name="email" type="text" id="email" size="30" value="" autocomplete="off" />
+                        <br />
+                        <label for="message">Message<span class="required"> *</span></label>
+                        <textarea name="message" cols="40" rows="3"  id="message"></textarea>
+                        <p class="special"><label for="last"><%=t :dontfill%></label><input type="text" name="last" value="" id="last" /></p>
+                        <div class="form_buttons">
+                        	<input type="submit" class="button" id="submit" value="<%=t :submit%>" />
+                        	<input type="reset" class="button" id="reset" value="<%=t :reset%>" />
+                        </div>
+                	</form>
+             	</div>
+        	</div>
+           	<div class="col_2 firstcolumn">
+            	<h3><%=t :follow_us%></h3>
+                <ul class="social">
+                	<li><a href="#"><img src='img/twitter.png' alt="" /><span>Twitter</span></a></li>
+                    <li><a href="#"><img src='img/facebook.png' alt="" /><span>Facebook</span></a></li>
+                </ul>
+           	</div>
+    	</div>
+	</li>
+	
+
+</ul>
