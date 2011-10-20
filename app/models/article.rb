@@ -15,7 +15,9 @@ class Article < ActiveRecord::Base
   
   default_scope :order => 'articles.created_at DESC'
   
-  has_attached_file :image, :styles => { :medium => "150x150>"}
+  has_attached_file :image, :styles => { :medium => "150x150>"},
+                    :url => "/assets/articles/:style/:basename.:extension",
+                    :path => ":rails_root/public/assets/articles/:style/:basename.:extension"
   
-
+  
 end
