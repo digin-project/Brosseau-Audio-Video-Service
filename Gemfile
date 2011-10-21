@@ -6,19 +6,13 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
-gem 'will_paginate', '3.0.pre2'
-
-gem 'puret'
 gem 'activeadmin'
 gem 'paperclip', '2.4'
+gem 'aws-s3'
+
 
 group :development do
   gem 'annotate', '2.4.0'
-  gem 'faker', '0.3.1'
 end
 
-group :test do
-  gem 'webrat', '0.7.1'
-end
 
