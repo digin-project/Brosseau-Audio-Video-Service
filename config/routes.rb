@@ -1,7 +1,11 @@
 Brosseau::Application.routes.draw do
   resources :articles
+  resources :aubaines
+  resources :nouveautes
 
   match '/expert',   :to => 'articles#show'
+  match '/deals',   :to => 'aubaines#show'
+  match '/nouveautes',   :to => 'nouveautes#show'
   
   ActiveAdmin.routes(self)
 

@@ -85,18 +85,10 @@
 		<!-- NEW PRODUCTS -->	
 		<section id="new_product">
 			<article>
-				<img id="new_product_pic" src="images/new_product_test.png"/>
-				<p id="new_product_txt">
-					Marantz va lancer sur le marché
-					courant  Aout son nouveau vaisseau
-					amiral AV 3D SR7005
-					<span id="new_product_date">
-						Jul 08, 2010
-					</span>
-				</p>
-				<a href="" id="new_product_more"><%=t :more%></a>
-				<a href="" id="new_product_left"></a>
-				<a href="" id="new_product_right"></a>
+				<%= render 'shared/nouveautes' %>
+				<%=link_to (t :more), nouveautes_path, :id => "new_product_more" %>
+				<!--<a href="" id="new_product_left"></a>
+				<a href="" id="new_product_right"></a>-->
 			</article>
 		</section>
 		<!-- NEW PRODUCTS END -->

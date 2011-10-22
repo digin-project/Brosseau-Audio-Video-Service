@@ -8,6 +8,13 @@
 			speed: 1500
 		});
 		
+		$("#slider_nouveautes").innerfade({
+			speed: 'slow',
+			timeout: 4000,
+			type: 'sequence',
+			containerheight: '165px'
+		});
+		
 		$('#flash_infos2').innerfade({
 			speed: 'slow',
 			timeout: 4000,
