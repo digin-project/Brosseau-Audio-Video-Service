@@ -12,7 +12,7 @@ ActiveAdmin.register Article , :as => "Avis Expert" do
 
   
     form :html => { :enctype => "multipart/form-data" } do |f|
-     f.inputs "Details" do
+     f.inputs "Article" do
        f.input :titre
        f.input :texte
       f.input :image, :as => :file

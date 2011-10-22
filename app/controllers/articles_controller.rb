@@ -9,7 +9,5 @@ class ArticlesController < ApplicationController
      end
   end
 
-  def read
-  end
 
 end

@@ -4,10 +4,12 @@ class PagesController < ApplicationController
      @body_id = "home"
      if I18n.locale == :fr_CA
        @actus = Actus.find( :all, :limit => 5)
-       @expert = Article.first 
+       @expert = Article.first
+       @nouveautes = Nouveaute.find( :all, :limit => 5)
      else
        @actus = ActusEn.find( :all, :limit => 5)
        @expert = Advice.first
+       @nouveautes = NewProduct.find( :all, :limit => 5)
      end
    end
 

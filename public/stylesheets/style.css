@@ -737,7 +737,20 @@ ul.menu > li ul li a:hover{
 #new_product_right:hover{
 	background: url(../images/sprite_right_arrow.png) right top no-repeat;
 }
-
+#slider_nouveautes ul, #slider_nouveautes li{
+		margin:0;
+		padding:0;
+		list-style:none;
+}
+#slider_nouveautes li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:265px;
+		height:165px;
+		overflow:hidden; 
+}
 
 
 /***** CENTRAL HOME PAGE MIDDLE BODY SECTION END *****/
@@ -770,3 +783,6 @@ ul.menu > li ul li a:hover{
 	font-weight:bold;
 	padding-bottom:0px;
 }
+
+
+

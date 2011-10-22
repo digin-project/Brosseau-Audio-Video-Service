@@ -1,0 +1,13 @@
+<section class="generic_page"> 
+	<h1><%= t :nouveautes_title %></h1> 
+	
+	<h1><%= t :nouveautes_intro %></h1>
+
+
+	<%	@nouveautes.each do |nouveaute| %>
+		<h2><%= nouveaute.titre.html_safe %></h2> 
+		<p><%= image_tag nouveaute.image.url(:medium) %></p>
+		<p><%= nl2br(nouveaute.texte).html_safe %></p> 
+	<% end %>
+	
+</section>

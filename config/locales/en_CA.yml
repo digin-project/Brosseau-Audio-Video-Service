@@ -9,6 +9,11 @@
   # localized PARTIALS
   partial_news : actus_en
   
+  deals_title: Deals
+  deals_intro: Killer deals! High quality products, cheap price.. Come and get it before it's too late
+  nouveautes_title: New Products
+  nouveautes_intro: Brosseau unveils for you the latest in audio and video technology
+  
   # HEADER
   home: Home
   about: About
@@ -157,6 +162,7 @@
       default: "%a, %d %b %Y %H:%M:%S %z"
       short: "%d %b %H:%M"
       long: "%B %d, %Y %H:%M"
+      custom: "%b %d, %Y"
     am: "am"
     pm: "pm"
 
