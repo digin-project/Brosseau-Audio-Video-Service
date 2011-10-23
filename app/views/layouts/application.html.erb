@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="keywords" content="Brosseau audio video">
+<meta name="robots" content="noindex">
 <title>Brosseau | <%= @title %></title>
   
   <%= stylesheet_link_tag "menu" %>
@@ -136,7 +137,7 @@
 						<div id="form_newsletter">
 							<form action="http://brosseau.us2.list-manage.com/subscribe/post?u=00c10ad0f1bbaae61ee5c3b28&amp;id=93cc7e1c09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 								<label for="email">Inscription Newsletter</label><br />
-								<input type="text" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"  onFocus="resetField()" placeholder="email address" required></input>
+								<input type="text" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"  onFocus="resetField()" placeholder="<%=t :email_label%>" required></input>
 								<input type="submit" id="bt_submit" value="Ok" name="subscribe" id="mc-embedded-subscribe" class="button">
 							</form>
 							
