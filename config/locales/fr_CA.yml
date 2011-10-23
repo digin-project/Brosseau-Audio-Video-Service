@@ -103,7 +103,11 @@ fr_CA:
   # BRANDS
   our_brands: Nos Marques
     
-  
+  control_lighting: Contrôle d'éclairage
+  control_comfort: Contrôle confort
+  control_entertain: Contrôle divertissement
+  control_security: Contrôle sécurité
+ 
   #active admin
   active_admin:
       dashboard: "Tableau de Bord"

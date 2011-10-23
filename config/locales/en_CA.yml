@@ -98,7 +98,10 @@
   # BRANDS
   our_brands: Our Brands
   
-  
+  control_lighting: Lighting control
+  control_comfort: Comfort control
+  control_entertain: Entertainment control
+  control_security: Security control
   
   # STANDARD
   date:

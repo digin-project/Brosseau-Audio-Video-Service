@@ -174,10 +174,12 @@ body {
 #ft_tweets{ padding-top:50px;}
 #ft_tweets h1{ padding-bottom:5px;}
 #last_tweet {
-	width:200px;
-	height:70px;
+	padding:2px;
+	width:250px;
+	height:100px;
 	display:block;
 	border:1px solid #2f2f2f;
+	overflow:hidden;
 }
 #twitter_update_list {
 
@@ -784,5 +786,16 @@ ul.menu > li ul li a:hover{
 	padding-bottom:0px;
 }
 
+#aubaines {
+	display:block;
+	width:42px;
+	height:87px;
+	background: url(../images/sprite_cocktail.jpg) left top no-repeat;
+	position:fixed;
+	top:250px;
+}
+#aubaines:hover {
+	background: url(../images/sprite_cocktail.jpg) right top no-repeat;
+}
 
 

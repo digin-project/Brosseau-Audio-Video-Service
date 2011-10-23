@@ -17,8 +17,8 @@
 	<script src="javascripts/easySlider1.7.js"></script>
 	<script src="javascripts/application.js"></script>
 	<script src="javascripts/jquery.innerfade.js"></script>
-<!--	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/agenceneos.json?callback=twitterCallback2&count=2"></script>-->
+	<script src="http://twitter.com/javascripts/blogger.js"></script> 
+	<script src="http://twitter.com/statuses/user_timeline/BrosseauAVS.json?callback=twitterCallback2&count=1"></script>
   <%= csrf_meta_tag %>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
@@ -57,7 +57,7 @@
 					<li id="about"><%= link_to((t :about), apropos_path) %></li>
 					<li id="ho"><%= link_to((t :products), produits_path) %></li>
 					<li><%= link_to((t :automation), automatisation_path) %></li>
-					<li><%= link_to((t :contact), contact_path) %></li>
+					<li><a href="#">Contact</a></li>
 				</ul>-->	
 				<%=render "shared/menu"%>												
 			</nav>
@@ -71,6 +71,10 @@
 
 	
 	<!-- MAIN CONTENT -->
+	
+	<a href="http://brosseau.qc.ca/event.php" target="_blank" id="aubaines"></a>
+	
+	
 	<div id="wrap">
 		<p class="notice"><%= notice %></p>
 		<p class="alert"><%= alert %></p>
@@ -103,9 +107,10 @@
 				<section id="ft_automatisation">
 					<header><h1><%=t :automation%></h1></header>
 					<article>
-						<p><a href="">AMX</a></p>
-						<p><a href="">Vantage</p>
+						<p><a href="http://www.amx.com/" target="_blank">AMX</a></p>
+						<p><a href="http://www.vantagecontrols.com/" target="_blank">Vantage</p>
 						<p><a href=""><%=t :other_systems%></a></p>
+						<p><a href="http://control4.com/" target="_blank">Control4</a></p>
 					</article>
 
 					<section id="ft_certification">
@@ -136,30 +141,19 @@
 							</form>
 							
 							
-							
-							<!-- Begin MailChimp Signup Form 
-						
-							<div id="mc_embed_signup">
-							<form action="http://brosseau.us2.list-manage.com/subscribe/post?u=00c10ad0f1bbaae61ee5c3b28&amp;id=93cc7e1c09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-								<label for="mce-EMAIL">Subscribe to our mailing list</label>
-								<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-							</form>
-							</div>
-
-						-->
-							
+					
 							
 						</div>
 					</article>
 					
-					<section id="ft_tweets">
-						<header><h1><%=t :last_tweet%></h1></header>
-						<article id="last_tweet">
-						<!--	<ul id="twitter_update_list" ><li></li></ul></div>
-						</div>	-->
-						</article>
-					</section>
+						<section id="ft_tweets"> 
+							<header><h1>Dernier Tweet</h1></header> 
+							<article id="last_tweet"> 
+								<ul id="twitter_update_list" >
+									<li></li>
+								</ul>	
+							</article> 
+						</section>
 				
 				</section>
 				
