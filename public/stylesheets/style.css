@@ -95,17 +95,26 @@ body {
 }
 
 
-#logo a{
-	background:url(../images/logo.png) no-repeat;
+#logo_fr a{
+	background:url(../images/logo_fr.png) no-repeat;
 	position: absolute;
-	top: 21px;
-	left: 202px;
-	width: 260px;
-	height: 62px;
+	top: 0px;
+	left: 100px;
+	width: 300px;
+	height: 100px;
+}
+#logo_en a{
+	background:url(../images/logo_en.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 300px;
+	height: 100px;
 }
 
 #phone {
 	position: absolute;
+	text-align:right;
 	top: 12px;
 	left: 612px;
 	color:#FFF;	
@@ -120,7 +129,7 @@ body {
 
 #i18n {
 	position: absolute;
-	top: 31px;
+	top: 45px;
 	left: 662px;
 	color:#949893;
 }
@@ -167,7 +176,7 @@ body {
 }
 
 
-#ft_expertise{float:left; width:228px;}
+#ft_expertise{float:left; width:228px; color:#FFF;}
 #ft_automatisation{ width:220px; float:left;}
 #ft_certification{float:left; padding-top:35px;}
 #ft_newsletter{ width:280px; float:left; font-size:12px;}
@@ -760,11 +769,12 @@ ul.menu > li ul li a:hover{
 
 
 /***** GENERIC PAGE *****/
-.generic_page {position:relative; left:100px; width:620px; text-align:justify; padding-bottom:40px;}
+.generic_page {position:relative; left:100px; width:620px; padding-bottom:40px; }
 .generic_page p{
 	margin:0;
 	padding:0;
 	padding-bottom:30px;
+	font-size:14px;
 }
 .generic_page h1 {
 	color:#000;
@@ -788,14 +798,64 @@ ul.menu > li ul li a:hover{
 
 #aubaines {
 	display:block;
-	width:42px;
+	width:41px;
 	height:87px;
-	background: url(../images/sprite_cocktail.jpg) left top no-repeat;
+	background: url(../images/sprite_aubaines.jpg) left top no-repeat;
 	position:fixed;
 	top:250px;
 }
 #aubaines:hover {
-	background: url(../images/sprite_cocktail.jpg) right top no-repeat;
+	background: url(../images/sprite_aubaines.jpg) right top no-repeat;
+}
+
+#deals {
+	display:block;
+	width:42px;
+	height:87px;
+	background: url(../images/sprite_deals.jpg) left top no-repeat;
+	position:fixed;
+	top:250px;
+}
+#deals:hover {
+	background: url(../images/sprite_deals.jpg) right top no-repeat;
 }
 
 
+/***** PRE-HOME PAGE (Language selection) *****/
+#prehome{	
+	color:#FFF;
+	background:#000 url(../images/bg_prehome_repeat.jpg) repeat-x;
+}
+
+#prehome_wrapper {
+	background:url(../images/bg_prehome.jpg) no-repeat;
+	margin: 0 auto;
+	width: 1198px;
+	height:820px;
+	padding: 0;
+}
+
+#go_fr{
+	position:relative;
+	top:427px;
+	left:485px;
+	display:block; 
+	width:85px; 
+	height:27px; 
+	background: url(../images/sprite_fr.png) left top no-repeat;
+}
+#go_fr:hover{
+	background: url(../images/sprite_fr.png) right top no-repeat;
+}
+#go_en{
+	position:relative;
+	top:400px;
+	left:630px;
+	display:block; 
+	width:85px; 
+	height:27px; 
+	background: url(../images/sprite_en.png) left top no-repeat;
+}
+#go_en:hover{
+	background: url(../images/sprite_en.png) right top no-repeat;
+}

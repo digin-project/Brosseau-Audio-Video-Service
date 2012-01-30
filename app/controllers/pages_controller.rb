@@ -13,15 +13,20 @@ class PagesController < ApplicationController
      end
    end
 
-    def about
-      @title = t :about 
+    def history
+      @title = t :history
       @body_id = "secondary"
     end
     
-    def products
-      @title = t :products
+    def company
+      @title = t :company
       @body_id = "secondary"
      end
+     
+     def team
+       @title = t :team
+       @body_id = "secondary"
+      end
      
     def automation
       @title = t :automation 

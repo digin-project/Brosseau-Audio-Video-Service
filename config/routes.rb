@@ -1,20 +1,32 @@
 Brosseau::Application.routes.draw do
+  get "index/home"
+
   resources :articles
   resources :aubaines
   resources :nouveautes
+  resources :pages
 
+ 
   match '/expert',   :to => 'articles#show'
   match '/deals',   :to => 'aubaines#show'
   match '/nouveautes',   :to => 'nouveautes#show'
+  
   
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
-  match '/apropos',   :to => 'pages#about'
+  match '/apropos',   :to => 'pages#company'
+  match '/historique',   :to => 'pages#history'
+  match '/equipe',   :to => 'pages#team'
+  match '/entreprise',   :to => 'pages#company'
   match '/produits',    :to => 'pages#products'
   match '/automatisation', :to => 'pages#automation'
-  root :to => 'pages#home'
+  match '/home',   :to => 'pages#home'
+  
+  # root :to => 'pages#home'
+  root :to => 'index#home'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

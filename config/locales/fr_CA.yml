@@ -15,6 +15,7 @@ fr_CA:
   # localized PARTIALS
   partial_news : actus
   
+  deals_sprite_id: aubaines
   deals_title: Aubaines
   deals_intro: Affaires à saisir! Matériel de qualité, prix bradés.. Venez pendant qu'il est encore temps...
   nouveautes_title: Nouveautés
@@ -25,7 +26,8 @@ fr_CA:
   about: A propos
   products: Produits
   automation: Automatisation
-  contact: Contact   
+  contact: Contact 
+  logo_id : logo_fr  
   
   # FOOTER
   home_cinema: Cinéma Maison
@@ -60,9 +62,10 @@ fr_CA:
   
   # MENU
   # about
-  company: L'entreprise
-  history: L'historique
-  team: L'équipe
+  about_company: À Propos de l'Entreprise
+  company: L'Entreprise
+  history: Historique
+  team: L'Équipe
   partners: Nos partenaires
   # products
   list: Liste des partenaires / marques de Brosseau
@@ -108,7 +111,38 @@ fr_CA:
   control_comfort: Contrôle confort
   control_entertain: Contrôle divertissement
   control_security: Contrôle sécurité
- 
+  
+  
+  # A PROPOS 
+  company_text_1: "Notre entreprise est spécialisée dans la conception, l’installation, la programmation,
+  la calibration, la mise-en-service et l’entretien des systèmes audio-vidéo personnalisés : téléviseurs, projecteurs, cinémas-maison, systèmes multi-sources/multi-pièces, chaînes haute-fidélité, cameras de surveillance, contrôle
+  de l’éclairage, automatisation et autres systèmes de divertissement, de communications, de contrôle d'accès et de surveillance vidéo."
+  company_text_2: "Notre équipes de conseillers et de techniciens disposent de cinq (5) salles de 
+  démonstration professionnellement équipées et décorées pour aider nos clients
+  à apprécier la qualité du son et de l’image et les caractéristiques des différents appareils et systèmes qui leur sont proposés. Les conseils en audio-vidéo 
+  leur sont aussi offerts gratuitement à domicile. Notre entreprise compte déjà cinquante (50) ans d’expérience et de réalisations dans le domaine du divertissement audio-vidéo."
+  company_text_3: "Brosseau a acquis les certifications ISF ( Imaging Science Foundation) et HAA
+  (Home Acoustic Alliance). Ces deux organismes ont établi une norme spécifique
+  de qualité en matière de reproduction d’imagerie vidéo et d’acoustique résidentielle
+  et de petites salles. Ces certifications assurent à nos clients une qualité de son et
+  d’image supérieure, en conformité aux normes les plus rigoureuses de l’industrie."  
+
+  history_text_1: "En 1961, Olivier Brosseau se lance dans la réparation d’appareils électroniques, en
+    atelier et à domicile. En 1966, un premier immeuble est construit sur l’emplacement actuel pour abriter le nouveau magasin 'Ateliers Electroniques Brosseau',
+    nouvellement constituée. En 1972, l’immeuble double de superficie et
+    prend la forme d’aujourd’hui."
+  history_text_2: "Depuis, Brosseau a vendu, installé et réparé toutes sortes d’appareils audio-vidéo,
+    des téléviseurs à écran cathodique, en passant par le Commodore 64 jusqu’aux
+    plus récents contrôles d’éclairage et d’automatisation résidentielle, Brosseau
+    audio-vidéo renouvelle constamment ses connaissances et son expertise, afin de
+    demeurer à la fine pointe de la technologie."
+
+  team_text_1: "Brosseau compte présentement sur huit techniciens en électronique, capables d’informer et de conseiller nos clients sur les nouvelles technologies, au fur et à mesure de leur mise en marché et de leur évolution, ainsi que de leur démontrer les caractéristiques propres à chaque produit."
+  team_text_2: "Nos techniciens ne se contentent pas de livrer la marchandise. Ils installent l’équipement selon les normes reconnues de l’industrie, voient à activer, programmer et calibrer les appareils au besoin et à en expliquer le fonctionnement aux nouveaux usagers."
+  team_text_3: "Nos produits et services sont garantis, mais notre atelier de réparation est prêt à intervenir au besoin."
+  
+
+   
   #active admin
   active_admin:
       dashboard: "Tableau de Bord"

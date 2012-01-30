@@ -6,7 +6,7 @@
 			<li>
 				<%=	image_tag nouveaute.image.url(:medium), id => "new_product_pic"%>
 				<p id="new_product_txt">
-					<%= nl2br(nouveaute.texte[0, 256 ]).html_safe + "(...)" %>
+					<%= nl2br(nouveaute.texte[0, 96]).html_safe + " (...)"%>
 					<span id="new_product_date">
 						<%= l nouveaute.updated_at, :format => :custom %>
 					</span>

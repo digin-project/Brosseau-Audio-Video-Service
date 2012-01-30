@@ -86,8 +86,9 @@
 		<section id="new_product">
 			<article>
 				<%= render 'shared/nouveautes' %>
-				<%=link_to (t :more), nouveautes_path, :id => "new_product_more" %>
-				<!--<a href="" id="new_product_left"></a>
+				<%=link_to (t :more), "http://www.control4.com/residential/products/myhome/", :id => "new_product_more" %>
+				<!--<%=link_to (t :more), nouveautes_path, :id => "new_product_more" %>
+				<a href="" id="new_product_left"></a>
 				<a href="" id="new_product_right"></a>-->
 			</article>
 		</section>
@@ -101,7 +102,7 @@
 			</header>
 			<article>
 				<%= render 'expert' %>
-				<a href="" id="expert_ask"><%=t :ask%></a>
+				<a href="mailto:expert@brosseau.qc.ca" id="expert_ask"><%=t :ask%></a>
 				<%=link_to (t :share), expert_path, :id => "expert_share" %>
 				<%=link_to (t :read), expert_path, :id => "expert_read" %>
 				<%=link_to (t :comment), expert_path, :id => "expert_comment" %>

@@ -3,7 +3,10 @@
 
 	<h2><%= @expert.titre %></h2> 
 
-	<%= image_tag @expert.image.url(:medium) %>
+
+	<%= image_tag @expert.image.url() %>
+	<br />	<br />
+
 	
 	<p><%= nl2br(@expert.texte).html_safe %></p> 
 

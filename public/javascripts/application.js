@@ -17,7 +17,7 @@
 		
 		$('#flash_infos2').innerfade({
 			speed: 'slow',
-			timeout: 4000,
+			timeout: 6000,
 			type: 'sequence',
 			containerheight: '55px'
 		});

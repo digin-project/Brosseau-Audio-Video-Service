@@ -133,10 +133,10 @@
 	left:510px;
 	top:38px;
 }
-#menu_about {width:190px; height:110px;}
+#menu_about {width:190px; height:130px;}
 #menu_products {width:327px; height:360px;}
-#menu_automation {width:201px; height:229px;}
-#menu_contact {width:300px; height:375px;}
+#menu_automation {width:201px; height:110px;}
+#menu_contact {width:300px; height:430px;}
 
 
 /* Showing Drop Down on Mouse Hover - Right aligned */

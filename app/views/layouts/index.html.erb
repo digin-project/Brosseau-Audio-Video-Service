@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="keywords" content="Brosseau audio video">
+<meta name="robots" content="noindex">
+<title>Brosseau | <%= @title %></title>
+  
+  
+	<%= stylesheet_link_tag "style" %>
+  	<link href="stylesheets/<%=t :localize_css%>.css" rel="stylesheet" />
+
+  	<%= csrf_meta_tag %>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+<![endif]-->
+<!--[if IE]>
+   <link href="stylesheets/style_ie.css" rel="stylesheet" />
+<![endif]-->
+</head>
+
+
+<body id="prehome"> 
+
+<div id="prehome_wrapper">
+
+	<%= link_to "", url_for(:action => 'home', :controller => 'pages', :locale => "fr_CA"), :id => "go_fr"  %>
+	<%= link_to "", url_for(:action => 'home', :controller => 'pages', :locale => "en_CA"), :id => "go_en"  %>
+
+</div>	
+ 
+</body> 
+</html>

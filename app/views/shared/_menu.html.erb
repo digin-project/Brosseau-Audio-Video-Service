@@ -7,7 +7,7 @@
 	<!-- ************************************** -->    
 	<!-- ************* HOME ******************* -->
 	<!-- ************************************** -->
-    <li id="home"><%= link_to((t :home), root_path) %></li>
+    <li id="home"><%= link_to((t :home), home_path) %></li>
 
 
 	<!-- ************************************** -->    
@@ -16,11 +16,11 @@
     <li id="about"><%= link_to((t :about), apropos_path, :class => "drop") %>
     	<div class="dropdown_1column" id="menu_about">
         	<div class="col_1 firstcolumn">
-				<h3><%=t :company%></h3>
+				<h3><%=t :about_company%></h3>
                 <ul class="levels">
-                	<li><a href="#"><%=t :history%></a></li>
-                    <li><a href="#"><%=t :team%></a></li>
-                    <li><a href="#"><%=t :partners%></a></li>
+                	<li><%= link_to((t :company), entreprise_path)%></li>
+ 					<li><%= link_to((t :history), historique_path)%></li>
+					<li><%= link_to((t :team), equipe_path)%></li>
                 </ul>    
             </div>
         </div>
@@ -87,10 +87,7 @@
 					<h3><%=t :automation%></h3>
                     <li><a href="#"><%=t :amx%></a></li>
 					<li><a href="#">Vantage</a></li>
-					<li><a href="#"><h3>Expertise</h3></a></li>
-                    <li><a href="#"><h3><%=t :new_products%></h3></a></li>
-					<li><a href="#"><h3><%=t :guarantee%></h3></a></li>
-					<li><a href="#"><h3><%=t :work%></h3></a></li>
+					<li><a href="#">Control4</a></li>
               	</ul>   
 			</div>
 		</div>
@@ -111,13 +108,13 @@
                     </div>
                  	<form method="post" action="http://neos-interactive.com/form/contact.php" id="contactForm">
                         <label for="name"><%=t :name%><span class="required"> *</span></label>
-                        <input name="name" type="text" id="name" size="30" value="" autocomplete="off" /> 
+                        <input name="name" type="text" id="name" size="20" value="" autocomplete="off" /> 
                         <br />
                         <label for="email">Email<span class="required"> *</span></label>
-                        <input name="email" type="text" id="email" size="30" value="" autocomplete="off" />
+                        <input name="email" type="text" id="email" size="20" value="" autocomplete="off" />
                         <br />
                         <label for="message">Message<span class="required"> *</span></label>
-                        <textarea name="message" cols="40" rows="3"  id="message"></textarea>
+                        <textarea name="message" cols="100" rows="8"  id="message"></textarea>
                         <p class="special"><label for="last"><%=t :dontfill%></label><input type="text" name="last" value="" id="last" /></p>
                         <div class="form_buttons">
                         	<input type="submit" class="button" id="submit" value="<%=t :submit%>" />

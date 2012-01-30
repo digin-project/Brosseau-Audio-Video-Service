@@ -9,10 +9,12 @@
   # localized PARTIALS
   partial_news : actus_en
   
+  deals_sprite_id: deals
   deals_title: Deals
   deals_intro: Killer deals! High quality products, cheap price.. Come and get it before it's too late
   nouveautes_title: New Products
   nouveautes_intro: Brosseau unveils for you the latest in audio and video technology
+
   
   # HEADER
   home: Home
@@ -20,6 +22,7 @@
   products: Products
   automation: Automation
   contact: Contact
+  logo_id : logo_en
   
   # FOOTER
   home_cinema: Home Cinema
@@ -54,10 +57,11 @@
   
   # MENU
   # about
-  company: The company
-  history: hystory
-  team: The team
-  partners: Our partners
+  about_company: About Our Company
+  company: Our Company
+  history: Historical
+  team: The Team
+  partners: Our Partners
   # products
   list: List of Brosseau's brands and partners
   # automation
@@ -103,6 +107,32 @@
   control_comfort: Comfort control
   control_entertain: Entertainment control
   control_security: Security control
+  
+  
+  # ABOUT
+  company_text_1: "Our company is specialized in the design, installation, programming, calibrating,
+  setting into service and maintenance of customized audio-video systems: television sets, video projectors, home theatres, multi-room systems, Hi-Fi systems, video cameras, lighting control,  home automation… and other entertainment, communication and video security systems."
+  company_text_2: "Our team of experienced advisers and technicians are supported by five (5)
+  demo rooms professionally equipped and designed to help our clients to
+  appreciate the quality of sound and picture and specifications of different 
+  systems or units they are interested in. Their advises are also offered free
+  at home. Our company has already fifty (50) years of experience and achievements
+  in audio-video entertainment."
+  company_text_3: "Brosseau has acquired the ISF (Imaging Science Foundation) and HAA (Home
+  Acoustic Alliance) certifications. These two organizations have established high 
+  standards in the matter of video reproduction and home and small rooms acoustic 
+  specifically. These certifications assure our customers better results in sound and 
+  picture quality in conformity with the highest standards of the industry."  
+  
+  history_text_1: "In 1961, Olivier Brosseau started-up a repair business in electronics, at home and 
+  in shop. In 1966 a first building was built on the actual site to accommodate
+  the new store of 'Ateliers Electroniques Brosseau' recently registered."
+  history_text_2: "Since then, Brosseau has sold, installed and repaired a lot of any kind of audio/video
+  equipment, from cathode ray TVs, through Commodore 64 up to the last lighting and home automation controls. Brosseau has to renew constantly its own knowledge and expertise to stay up-to-date technology wise."
+  
+  team_text_1: "Brosseau can rely presently on eight (8) technicians in electronics, trained to form and advise our customers about new technologies upon their launching and evolving, as well as they can demonstrate them the specifications of each line of products."
+  team_text_2: "Our technicians do not only deliver the stock. They install the gear according to well known standards of the industry, program, activate and calibrate each unit as needed and explain how it works and how to use it to the new users."
+  team_text_3: "Our products and services are guaranteed but in case of failure or problem, our service department will intervene rapidly."
   
   # STANDARD
   date:
