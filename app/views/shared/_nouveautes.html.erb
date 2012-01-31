@@ -4,7 +4,7 @@
 	<ul id="slider_nouveautes">
 		<%	@nouveautes.each do |nouveaute| %>
 			<li>
-				<%=	image_tag nouveaute.image.url(:medium), id => "new_product_pic"%>
+				<%=	image_tag nouveaute.image.url(:medium)%>
 				<p id="new_product_txt">
 					<%= nl2br(nouveaute.texte[0, 96]).html_safe + " (...)"%>
 					<span id="new_product_date">
