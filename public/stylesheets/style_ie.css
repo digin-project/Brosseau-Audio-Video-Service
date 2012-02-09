@@ -1,1 +1,11 @@
 /* A REMPLIR */
+#central_header {
+	margin: 0 auto;
+	padding: 0;
+	background:url(../images/bg_header.jpg) no-repeat;
+	position: relative;
+	top:-15px;
+	width: 963px;
+	height: 142px;
+	font:lighter #FFF 12px Arial;
+}
