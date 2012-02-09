@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>public/stylesheets/menu.css</string>
+	<string>app/views/shared/_menu.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -49,20 +49,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>app/models/admin_user.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>app/views/layouts/application.html.erb</key>
 		<dict>
 			<key>caret</key>
@@ -76,50 +62,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>93</integer>
-		</dict>
-		<key>app/views/pages/company.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-		</dict>
-		<key>app/views/pages/history.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>app/views/pages/home.html.erb</key>
 		<dict>
@@ -135,19 +77,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>app/views/pages/team.html.erb</key>
+		<key>app/views/shared/_menu.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>58</integer>
 				<key>line</key>
-				<integer>3</integer>
+				<integer>33</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>6</integer>
 		</dict>
 		<key>config/locales/en_CA.yml</key>
 		<dict>
@@ -193,20 +135,6 @@
 			<key>firstVisibleLine</key>
 			<integer>112</integer>
 		</dict>
-		<key>config/routes.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>21</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>public/javascripts/easySlider1.7.js</key>
 		<dict>
 			<key>caret</key>
@@ -220,20 +148,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>148</integer>
-		</dict>
-		<key>public/stylesheets/menu.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>41</integer>
-				<key>line</key>
-				<integer>137</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>116</integer>
 		</dict>
 		<key>public/stylesheets/style.css</key>
 		<dict>
@@ -252,21 +166,11 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>app/views/pages/home.html.erb</string>
-		<string>public/stylesheets/style.css</string>
-		<string>app/views/layouts/application.html.erb</string>
-		<string>app/controllers/pages_controller.rb</string>
-		<string>config/locales/en_CA.yml</string>
-		<string>config/locales/fr_CA.yml</string>
-		<string>public/stylesheets/menu.css</string>
-		<string>app/views/pages/company.html.erb</string>
-		<string>app/views/pages/history.html.erb</string>
-		<string>app/views/pages/team.html.erb</string>
-		<string>config/routes.rb</string>
+		<string>app/views/shared/_menu.html.erb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{307, 59}, {973, 719}}</string>
+	<string>{{1899, 320}, {973, 719}}</string>
 </dict>
 </plist>

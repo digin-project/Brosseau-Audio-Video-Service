@@ -72,7 +72,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	background:url(../images/bg_header.jpg) no-repeat;
-	position: relative;
+	position: absolute;
 	width: 963px;
 	height: 142px;
 	font:lighter #FFF 12px Arial;
