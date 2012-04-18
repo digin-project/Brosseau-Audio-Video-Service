@@ -25,7 +25,7 @@ fr_CA:
   home: Accueil
   about: A propos
   products: Produits
-  automation: Automatisation
+  automation: Commercial
   contact: Contact 
   logo_id : logo_fr  
   
@@ -37,7 +37,7 @@ fr_CA:
   surveillance: Surveillance vidéo
   ligthing: Contrôle d'éclairage
   acoustic: Traitement acoustique
-  automation: Automatisation																												
+  automation_footer: Domotique																												
   calibration: Calibration					
   conference: Salle de conférence
   
@@ -74,6 +74,22 @@ fr_CA:
   new_products: Nouveautés
   guarantee: Notre garantie
   work: Nos réalisations
+  # retail
+  retail_store: Magasin de détails
+  pro_offices: Bureaux
+  surveillance_room: Salle de Surveillance
+  conference_room: Salle de Conférence
+  audio_system: Système Audio
+  ambient_music: Musique d'Ambiance
+  home_automation: Domotique
+  video_wall: Matrice "Vidéo Wall"
+  video_projectors: Projecteurs
+  screens_interactive: Écran Interactifs
+  screens_sport: Événements Sportifs
+  screens_ad: Écrans Publicitaires
+  visual_pres: Présentations
+  store_window: Vitrines
+  cinema: Salle de Cinéma
   # contact
   fill: Contactez-nous grâce au formulaire ci-dessous
   name: Nom
@@ -81,13 +97,28 @@ fr_CA:
   reset: Effacer
   follow_us: Suivez-nous sur les réseaux sociaux
   dontfill: Ne pas remplir cela
+  # hours
+  hours: Horaires
+  hours_period: Été (11 Mai - 9 Sept.)
+  hour1: 10h à 18h
+  hour2: 10h à 21h
+  hour3: 10h à 17h
+  rdv: SUR RENDEZ-VOUS quand vous voulez
+  monday: Lundi
+  tuesday: Mardi
+  wednesday: Mercredi
+  thursday: Jeudi
+  friday: Vendredi
+  saturday: Samedi
+     
   
   # SCROLLER
   audio_title: AUDIO
   video_title: VIDEO
-  automation_title: AUTOMATISATION
+  automation_title: DOMOTIQUE
   speakers: Haut parleurs
   tv3d: TV & TV3D
+  repair_service: Service de Réparation
   
   # NEWS FLASH
   news: Actualités
@@ -116,7 +147,7 @@ fr_CA:
   # A PROPOS 
   company_text_1: "Notre entreprise est spécialisée dans la conception, l’installation, la programmation,
   la calibration, la mise-en-service et l’entretien des systèmes audio-vidéo personnalisés : téléviseurs, projecteurs, cinémas-maison, systèmes multi-sources/multi-pièces, chaînes haute-fidélité, cameras de surveillance, contrôle
-  de l’éclairage, automatisation et autres systèmes de divertissement, de communications, de contrôle d'accès et de surveillance vidéo."
+  de l’éclairage, domotique et autres systèmes de divertissement, de communications, de contrôle d'accès et de surveillance vidéo."
   company_text_2: "Notre équipes de conseillers et de techniciens disposent de cinq (5) salles de 
   démonstration professionnellement équipées et décorées pour aider nos clients
   à apprécier la qualité du son et de l’image et les caractéristiques des différents appareils et systèmes qui leur sont proposés. Les conseils en audio-vidéo 
@@ -133,14 +164,15 @@ fr_CA:
     prend la forme d’aujourd’hui."
   history_text_2: "Depuis, Brosseau a vendu, installé et réparé toutes sortes d’appareils audio-vidéo,
     des téléviseurs à écran cathodique, en passant par le Commodore 64 jusqu’aux
-    plus récents contrôles d’éclairage et d’automatisation résidentielle, Brosseau
+    plus récents contrôles d’éclairage et de domotique résidentielle, Brosseau
     audio-vidéo renouvelle constamment ses connaissances et son expertise, afin de
     demeurer à la fine pointe de la technologie."
 
-  team_text_1: "Brosseau compte présentement sur huit techniciens en électronique, capables d’informer et de conseiller nos clients sur les nouvelles technologies, au fur et à mesure de leur mise en marché et de leur évolution, ainsi que de leur démontrer les caractéristiques propres à chaque produit."
+  team_text_1: "Brosseau compte présentement sur des techniciens en électronique, capables d’informer et de conseiller nos clients sur les nouvelles technologies, au fur et à mesure de leur mise en marché et de leur évolution, ainsi que de leur démontrer les caractéristiques propres à chaque produit."
   team_text_2: "Nos techniciens ne se contentent pas de livrer la marchandise. Ils installent l’équipement selon les normes reconnues de l’industrie, voient à activer, programmer et calibrer les appareils au besoin et à en expliquer le fonctionnement aux nouveaux usagers."
   team_text_3: "Nos produits et services sont garantis, mais notre atelier de réparation est prêt à intervenir au besoin."
-  
+  team_contact_1: "CONSEILLERS ET SERVICE À LA CLIENTÈLE"
+  team_contact_2: "TECHNICIEN ET PROGRAMMEUR"  
 
    
   #active admin

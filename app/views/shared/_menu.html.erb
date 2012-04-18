@@ -19,7 +19,6 @@
 				<h3><%=t :about_company%></h3>
                 <ul class="levels">
                 	<li><%= link_to((t :company), entreprise_path)%></li>
- 					<li><%= link_to((t :history), historique_path)%></li>
 					<li><%= link_to((t :team), equipe_path)%></li>
                 </ul>    
             </div>
@@ -86,9 +85,24 @@
 			<div class="col_1 firstcolumn">
 				<ul class="levels">
 					<h3><%=t :automation%></h3>
-                    <li><a href="#"><%=t :amx%></a></li>
-					<li><a href="#">Vantage</a></li>
-					<li><a href="#">Control4</a></li>
+					<li><a href="#">Hotel</a></li>
+					<li><a href="#">Restaurant</a></li>					
+					<li><a href="#">Bar / Pub</a></li>								
+                    <li><a href="#"><%=t :retail_store%></a></li>
+                    <li><a href="#"><%=t :pro_offices%></a></li>
+                    <li><a href="#"><%=t :surveillance_room%></a></li>
+                    <li><a href="#"><%=t :conference_room%></a></li>
+                    <li><a href="#"><%=t :audio_system%></a></li>
+                    <li><a href="#"><%=t :ambient_music%></a></li>
+                    <li><a href="#"><%=t :home_automation%></a></li>
+                    <li><a href="#"><%=t :video_wall%></a></li>
+                    <li><a href="#"><%=t :video_projectors%></a></li>
+                    <li><a href="#"><%=t :screens_interactive%></a></li>
+                    <li><a href="#"><%=t :screens_sport%></a></li>
+                    <li><a href="#"><%=t :screens_ad%></a></li>
+                    <li><a href="#"><%=t :visual_pres%></a></li>
+                    <li><a href="#"><%=t :store_window%></a></li>
+                    <li><a href="#"><%=t :cinema%></a></li>
               	</ul>   
 			</div>
 		</div>
@@ -123,6 +137,28 @@
                         </div>
                 	</form>
              	</div>
+				<div style="float:right; padding-left:20px;">
+					<section id="ft_contact">
+					<h3><%=t :find_us%></h3>
+					<p>
+							3256 Grande Allée<br />
+							St-Hubert (Longueuil)<br />
+							Qc Canada
+					</p>
+					<a href="http://g.co/maps/9pr7b" target="_blank" title="Google Maps" id="maps"></a>
+					</section>
+				</div>
+				<h3 style="margin-bottom:5px"><%=t :hours%></h3>
+				<h4 style="margin-bottom:10px"><%=t :hours_period%></h4>
+				<p style="width:250px">
+					<%=t :monday%> <span style="float:right; font-weight:bold"><%=t :hour1%></span><br />
+					<%=t :tuesday%> <span style="float:right;font-weight:bold"><%=t :hour1%></span><br />
+					<%=t :wednesday%> <span style="float:right; font-weight:bold"><%=t :hour1%></span><br />
+					<%=t :thursday%> <span style="float:right;  font-weight:bold"><%=t :hour2%></span><br />
+					<%=t :friday%> <span style="float:right;  font-weight:bold"><%=t :hour2%></span><br />
+					<%=t :saturday%> <span style="float:right;  font-weight:bold"><%=t :hour3%></span><br />
+					<%=t :rdv%>
+				</p>																				
         	</div>
            	<div class="col_2 firstcolumn">
             	<h3><%=t :follow_us%></h3>

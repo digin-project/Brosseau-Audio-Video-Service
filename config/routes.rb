@@ -24,8 +24,8 @@ Brosseau::Application.routes.draw do
   match '/automatisation', :to => 'pages#automation'
   match '/home',   :to => 'pages#home'
   
-  # root :to => 'pages#home'
-  root :to => 'index#home'
+  root :to => 'pages#home'   #Routage directement vers la home page (en français)
+  #root :to => 'index#home'  #Routage vers la page de sélection de langues
 
 
   # The priority is based upon order of creation:

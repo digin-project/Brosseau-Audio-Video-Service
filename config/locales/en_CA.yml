@@ -20,7 +20,7 @@
   home: Home
   about: About
   products: Products
-  automation: Automation
+  automation: Professionnal
   contact: Contact
   logo_id : logo_en
   
@@ -32,7 +32,7 @@
   surveillance: Video Surveillance
   ligthing: Lighting Control
   acoustic: Acoustic Processing
-  automation: Automation																														
+  automation_footer: Home Automation																														
   calibration: Calibration						
   conference: Conference Rooms
   
@@ -69,6 +69,22 @@
   new_products: New products
   guarantee: Our guarantee
   work: Our work
+  # retail
+  retail_store: Retail Store
+  pro_offices: Professionnal Offices
+  surveillance_room: Surveillance Room
+  conference_room: Conference Room
+  audio_system: Audio Systems
+  ambient_music: Ambient Music
+  home_automation: Automation
+  video_wall: Video Wall Matrixes
+  video_projectors: Video Projectors
+  screens_interactive: Interactive Screens
+  screens_sport: Sport Events
+  screens_ad: Advertising
+  visual_pres: Visual Presentations
+  store_window: Store Window
+  cinema: Cinema
   # contact
   fill: Get in touch with the form below
   name: Name
@@ -76,14 +92,29 @@
   reset: Reset
   follow_us: Follow us on social networks
   dontfill: Don't fill this in
+  # hours
+  hours: Hours
+  hours_period: Summer (May11 - Sept.9)
+  hour1: 10am to 6pm
+  hour2: 10am to 9pm
+  hour3: 10am to 5pm
+  rdv: ON APPOINTMENT whenever you want
+  monday: Monday
+  tuesday: Tuesday
+  wednesday: Wednesday
+  thursday: Thursday
+  friday: Friday
+  saturday: Saturday
+  
   
   
   # SCROLLER
   audio_title: AUDIO
   video_title: VIDEO
-  automation_title: AUTOMATION
+  automation_title: HOME AUTOMATION
   speakers: Speakers
   tv3d: TV & 3DTV
+  repair_service: Repair Service
   
   # NEWS FLASH
   news: News
@@ -133,6 +164,8 @@
   team_text_1: "Brosseau can rely presently on eight (8) technicians in electronics, trained to form and advise our customers about new technologies upon their launching and evolving, as well as they can demonstrate them the specifications of each line of products."
   team_text_2: "Our technicians do not only deliver the stock. They install the gear according to well known standards of the industry, program, activate and calibrate each unit as needed and explain how it works and how to use it to the new users."
   team_text_3: "Our products and services are guaranteed but in case of failure or problem, our service department will intervene rapidly."
+  team_contact_1: "ADVISORS AND CUSTOMER SERVICE"
+  team_contact_2: "TECHNICIAN AND PROGRAMMER" 
   
   # STANDARD
   date:

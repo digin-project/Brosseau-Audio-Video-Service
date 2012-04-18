@@ -181,12 +181,12 @@ body {
 #ft_automatisation{ width:220px; float:left;}
 #ft_certification{float:left; padding-top:35px;}
 #ft_newsletter{ width:280px; float:left; font-size:12px;}
-#ft_tweets{ padding-top:50px;}
+#ft_tweets{ padding-top:20px;}
 #ft_tweets h1{ padding-bottom:5px;}
 #last_tweet {
 	padding:2px;
 	width:250px;
-	height:100px;
+	height:65px;
 	display:block;
 	border:1px solid #2f2f2f;
 	overflow:hidden;
@@ -776,6 +776,12 @@ ul.menu > li ul li a:hover{
 	padding:0;
 	padding-bottom:30px;
 	font-size:14px;
+}
+.generic_page a{
+	color:#5268aa;
+}
+.generic_page a:hover{
+	text-decoration:underline;
 }
 .generic_page h1 {
 	color:#000;
