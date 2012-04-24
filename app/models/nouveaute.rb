@@ -18,6 +18,6 @@ class Nouveaute < ActiveRecord::Base
     has_attached_file :image, :styles => { :medium => "180x100>"},
                       :storage => :s3,
                       :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
-                      :path => ":attachment/:id/:style.:extension",
+                      :path => ":class/:attachment/:id/:style.:extension",
                       :bucket => 'brosseau'
 end
