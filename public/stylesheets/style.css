@@ -430,6 +430,7 @@ ul.menu > li ul li a:hover{
 
 #menu_blue {
 	position: absolute; top:-149px; left: 0px; width: 320px; height: 149px;
+	cursor:pointer;
 }
 #menu_blue_image {
 	position: absolute; 
@@ -442,6 +443,7 @@ ul.menu > li ul li a:hover{
 }
 #menu_green {
 	position: absolute; top:0px; left: 0px; width: 320px; height: 149px; 
+	cursor:pointer;
 }
 #menu_green_image {
 	position: absolute; 
@@ -454,6 +456,7 @@ ul.menu > li ul li a:hover{
 }	
 #menu_violet {
 	position: absolute; top:0px; left: 0px; width: 320px; height: 149px;
+	cursor:pointer;
 }
 #menu_violet_image {
 	position: absolute; 
@@ -514,9 +517,14 @@ ul.menu > li ul li a:hover{
 	top:-80px;
 	left:-127px;
 	text-align:right;
+}
+#txt_audio a{
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:14px;
-	color:#FFF;	
+	color:#FFF;
+}
+#txt_audio a:hover{
+	text-decoration:underline;
 }
 #txt_video{
 	display:none;
@@ -525,9 +533,14 @@ ul.menu > li ul li a:hover{
 	top:-80px;
 	left:125px;
 	text-align:left;
+}
+#txt_video a{
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:14px;
-	color:#FFF;	
+	color:#FFF;
+}
+#txt_video a:hover{
+	text-decoration:underline;
 }
 #txt_automation{
 	display:none;
@@ -536,9 +549,14 @@ ul.menu > li ul li a:hover{
 	top:-80px;
 	left:60px;
 	text-align:left;
+}
+#txt_automation a{
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:14px;
-	color:#FFF;	
+	color:#FFF;
+}
+#txt_automation a:hover{
+	text-decoration:underline;
 }
 /***** END CENTRAL HOME PAGE MENU *****/
 

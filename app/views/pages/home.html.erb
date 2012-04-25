@@ -22,49 +22,49 @@
 <section id="scroller_home">
         <ul id="central_home_menu">
 			<li class="bg1" id="bt_audio">
-				<a href="" id="link_audio_menu">
+				<div id="link_audio_menu">
 					<div id="menu_blue">
 						<div id="menu_blue_image"></div>
 						<h1 id="central_menu_title_audio"><%=t :audio_title%></h1>
 						<p id="txt_audio">
-							<%=t :hifi%><br />
-							<%=t :multi_room%><br />
-							<%=t :speakers%><br />
-							<%=t :acoustic%><br />
-							<%=t :repair_service%>															
+							<a href=""><%=t :hifi%></a><br />
+							<a href=""><%=t :multi_room%></a><br />
+							<a href=""><%=t :speakers%></a><br />
+							<a href=""><%=t :acoustic%></a><br />
+							<a href=""><%=t :repair_service%></a>															
 						</p>
 					</div>
-				</a>
+				</div>
 			</li>
 			<li id="bt_video">
-				<a href="" id="link_video_menu">
+				<div id="link_video_menu">
 					<div id="menu_green">
 						<div id="menu_green_image"></div>
 						<h1 id="central_menu_title_video"><%=t :video_title%></h1>
 						<p id="txt_video">
-							<%=t :home_cinema%><br />
-							<%=t :tv3d%><br />
-							<%=t :conference%><br />
-							<%=t :surveillance%><br />
-							<%=t :repair_service%>															
+							<a href=""><%=t :home_cinema%></a><br />
+							<a href=""><%=t :tv3d%></a><br />
+							<a href=""><%=t :conference%></a><br />
+							<a href=""><%=t :surveillance%></a><br />
+							<a href=""><%=t :repair_service%></a>															
 						</p>
 					</div>
-				</a>
+				</div>
 			</li>	
 			<li id="bt_automation">
-				<a href="" id="link_automation_menu">
+				<div id="link_automation_menu">
 					<div id="menu_violet">
 						<div id="menu_violet_image"></div>
 						<h1 id="central_menu_title_automation"><%=t :automation_title%></h1>
 						<p id="txt_automation">
-								<%=t :control_lighting%><br />
-								<%=t :control_comfort%><br />
-								<%=t :control_entertain%><br />
-								<%=t :control_security%><br />
-								<%=t :repair_service%>															
+							<%= link_to((t :control_lighting), automatisation_path )%><br />
+							<a href=""><%=t :control_comfort%></a><br />
+							<a href=""><%=t :control_entertain%></a><br />
+							<a href=""><%=t :control_security%></a><br />
+							<a href=""><%=t :repair_service%></a>															
 						</p>
 					</div>
-				</a>
+				</div>
 			</li>
          </ul>
 </section>

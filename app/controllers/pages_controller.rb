@@ -27,14 +27,26 @@ class PagesController < ApplicationController
        @title = t :team
        @body_id = "secondary"
       end
-     
-    def automation
-      @title = t :automation 
-      @body_id = "secondary"
-    end
+    
       
    def contact
      @title = t :contact 
      @body_id = "secondary"
    end
+   
+   def audio
+     @title = t :audio
+     @body_id = "secondary"
+   end
+   
+   def video
+     @title = t :video
+     @body_id = "secondary"
+   end
+   
+   def automation
+     @title = t :automation
+     @body_id = "secondary"
+   end
+   
 end
