@@ -27,11 +27,11 @@
 						<div id="menu_blue_image"></div>
 						<h1 id="central_menu_title_audio"><%=t :audio_title%></h1>
 						<p id="txt_audio">
-							<a href=""><%=t :hifi%></a><br />
-							<a href=""><%=t :multi_room%></a><br />
-							<a href=""><%=t :speakers%></a><br />
-							<a href=""><%=t :acoustic%></a><br />
-							<a href=""><%=t :repair_service%></a>															
+							<%= link_to((t :hifi), audio_path )%><br />
+							<%= link_to((t :multi_room), audio_path )%><br />
+							<%= link_to((t :speakers), audio_path )%><br />
+							<%= link_to((t :acoustic), audio_path )%><br />
+							<%= link_to((t :repair_service), audio_path )%><br />														
 						</p>
 					</div>
 				</div>
@@ -42,11 +42,11 @@
 						<div id="menu_green_image"></div>
 						<h1 id="central_menu_title_video"><%=t :video_title%></h1>
 						<p id="txt_video">
-							<a href=""><%=t :home_cinema%></a><br />
-							<a href=""><%=t :tv3d%></a><br />
-							<a href=""><%=t :conference%></a><br />
-							<a href=""><%=t :surveillance%></a><br />
-							<a href=""><%=t :repair_service%></a>															
+							<%= link_to((t :home_cinema), video_path )%><br />
+							<%= link_to((t :tv3d), video_path )%><br />
+							<%= link_to((t :conference), video_path )%><br />
+							<%= link_to((t :surveillance), video_path )%><br />
+							<%= link_to((t :repair_service), video_path )%><br />															
 						</p>
 					</div>
 				</div>
@@ -57,11 +57,11 @@
 						<div id="menu_violet_image"></div>
 						<h1 id="central_menu_title_automation"><%=t :automation_title%></h1>
 						<p id="txt_automation">
-							<%= link_to((t :control_lighting), automatisation_path )%><br />
-							<a href=""><%=t :control_comfort%></a><br />
-							<a href=""><%=t :control_entertain%></a><br />
-							<a href=""><%=t :control_security%></a><br />
-							<a href=""><%=t :repair_service%></a>															
+							<%= link_to((t :control_lighting), domotique_path )%><br />
+							<%= link_to((t :control_comfort), domotique_path )%><br />
+							<%= link_to((t :control_entertain), domotique_path )%><br />
+							<%= link_to((t :control_security), domotique_path )%><br />
+							<%= link_to((t :repair_service), domotique_path )%><br />															
 						</p>
 					</div>
 				</div>

@@ -21,7 +21,10 @@ Brosseau::Application.routes.draw do
   match '/equipe',   :to => 'pages#team'
   match '/entreprise',   :to => 'pages#company'
   match '/produits',    :to => 'pages#products'
-  match '/automatisation', :to => 'pages#automation'
+  match '/commercial', :to => 'pages#professional'
+  match '/audio',   :to => 'pages#audio'
+  match '/video',   :to => 'pages#video'   
+  match '/domotique', :to => 'pages#automation'
   match '/home',   :to => 'pages#home'
   
   root :to => 'pages#home'   #Routage directement vers la home page (en français)

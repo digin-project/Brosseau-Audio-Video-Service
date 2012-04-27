@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>public/stylesheets/style.css</string>
+	<string>app/views/layouts/application.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,14 +26,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>47</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>27</integer>
+				<key>line</key>
+				<integer>47</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>47</integer>
+			</dict>
 		</dict>
 		<key>app/models/actus_en.rb</key>
 		<dict>
@@ -54,141 +70,169 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>276</integer>
 				<key>line</key>
-				<integer>135</integer>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/automation.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>27</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/company.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>1</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>125</integer>
+			<integer>0</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>34</integer>
+				<integer>22</integer>
 				<key>line</key>
-				<integer>135</integer>
+				<integer>1</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>5</integer>
 				<key>line</key>
-				<integer>135</integer>
+				<integer>1</integer>
 			</dict>
+		</dict>
+		<key>app/views/pages/history.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>app/views/pages/home.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
 				<integer>63</integer>
+				<key>line</key>
+				<integer>59</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>app/views/pages/team.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>82</integer>
+				<integer>5</integer>
 				<key>line</key>
-				<integer>23</integer>
+				<integer>19</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
 		</dict>
 		<key>app/views/shared/_menu.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>60</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>151</integer>
+				<integer>86</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>122</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>150</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>60</integer>
-				<key>line</key>
-				<integer>151</integer>
-			</dict>
+			<integer>61</integer>
 		</dict>
 		<key>config/locales/en_CA.yml</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>37</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>96</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>71</integer>
-		</dict>
-		<key>config/locales/fr_CA.yml</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>100</integer>
+				<integer>23</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>75</integer>
+			<integer>0</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>38</integer>
+				<integer>14</integer>
 				<key>line</key>
-				<integer>101</integer>
+				<integer>23</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>100</integer>
+				<integer>23</integer>
 			</dict>
 		</dict>
-		<key>config/routes.rb</key>
+		<key>config/locales/fr_CA.yml</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>80</integer>
+				<integer>14</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>28</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -209,66 +253,38 @@
 			<key>firstVisibleLine</key>
 			<integer>148</integer>
 		</dict>
-		<key>public/stylesheets/menu.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>138</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>118</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>138</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>138</integer>
-			</dict>
-		</dict>
 		<key>public/stylesheets/style.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>18</integer>
 				<key>line</key>
-				<integer>188</integer>
+				<integer>518</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>164</integer>
+			<integer>507</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>app/views/layouts/application.html.erb</string>
-		<string>app/views/pages/home.html.erb</string>
+		<string>public/stylesheets/style.css</string>
+		<string>app/views/pages/history.html.erb</string>
+		<string>app/views/pages/automation.html.erb</string>
 		<string>app/views/shared/_menu.html.erb</string>
 		<string>config/locales/en_CA.yml</string>
 		<string>config/locales/fr_CA.yml</string>
+		<string>app/views/pages/home.html.erb</string>
+		<string>app/views/layouts/application.html.erb</string>
 		<string>app/views/pages/team.html.erb</string>
-		<string>public/stylesheets/style.css</string>
-		<string>public/stylesheets/menu.css</string>
-		<string>config/routes.rb</string>
+		<string>app/views/pages/company.html.erb</string>
+		<string>app/controllers/pages_controller.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1771, 204}, {1167, 728}}</string>
+	<string>{{307, 52}, {973, 726}}</string>
 </dict>
 </plist>

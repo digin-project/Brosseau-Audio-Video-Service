@@ -49,4 +49,14 @@ class PagesController < ApplicationController
      @body_id = "secondary"
    end
    
+   def professional
+      @title = t :professional
+      @body_id = "secondary"
+    end
+    
+   def products
+        @title = t :products
+        @body_id = "secondary"
+    end
+    
 end

@@ -158,7 +158,7 @@ body {
 	height: 350px;
 	font:#7f7b7b 12px Arial;
 	padding-left:70px;
-	padding-top:23px;
+	padding-top:18px;
 }
 #central_footer p{
 	line-height:1.6em;
@@ -182,17 +182,20 @@ body {
 #ft_certification{float:left; padding-top:35px;}
 #ft_newsletter{ width:280px; float:left; font-size:12px;}
 #ft_tweets{ padding-top:20px;}
-#ft_tweets h1{ padding-bottom:5px;}
+#ft_tweets h1{ padding-bottom:5px; }
+#twitter_tweet { background: url(../images/twitter_tweet.png) no-repeat; position:absolute; left:620px; top:178px; width:30px; height:30px; display:block;}
 #last_tweet {
-	padding:2px;
+	padding:4px;
 	width:250px;
-	height:65px;
+	height:69px;
 	display:block;
 	border:1px solid #2f2f2f;
 	overflow:hidden;
+	color:#3d74b8;
+	font-weight:lighter;
 }
 #twitter_update_list {
-
+	font-size:10px;
 }
 #ft_contact{}
 #ft_contact p {color:#FFF; line-height:12px;}
@@ -884,3 +887,6 @@ ul.menu > li ul li a:hover{
 #go_en:hover{
 	background: url(../images/sprite_en.png) right top no-repeat;
 }
+
+
+#vendors_description p{font-size:12px;}

@@ -29,46 +29,44 @@
 	<!-- ************************************** -->    
 	<!-- ************* PRODUCTS *************** -->
 	<!-- ************************************** -->
-    <!-- <li id="products"><%= link_to((t :products), produits_path, :class => "drop") %> -->
-	<li id="products"><a href="#" class="drop"><%=t :products%></a>
+    <li id="products"><%= link_to((t :products), produits_path, :class => "drop") %>
     	<div class="dropdown_2columns align_center"  id="menu_products">
             <h3><%=t :list%></h3>
         	<div class="col_1 firstcolumn">
             	<ul>
-                	<li><a href="http://www.amx.com/" target="_blank">AMX</a></li>
-					<li><a href="http://www.vantagecontrols.com/" target="_blank">Vantage</a></li>
-                    <li><a href="http://www.linn.co.uk/" target="_blank">Linn</a></li>
-                    <li><a href="http://www.marantz.com/" target="_blank">Marantz</a></li>
-					<li><a href="http://www.speakercraft.com/" target="_blank">Speakercraft</a></li>
-					<li><a href="http://www.panamax.com/" target="_blank">Panamax</a></li>
-					<li><a href="http://cambridgeaudio.com/" target="_blank">Cambridge</a></li>
-					<li><a href="http://www.tivoliaudio.com/" target="_blank">Tivoli</a></li>
-					<li><a href="http://www.anthemav.com/" target="_blank">Anthem</a></li>
-					<li><a href="http://www.gradolabs.com/" target="_blank">Grado</a></li>
-                    <li><a href="http://www.sennheiser.ca/live/" target="_blank">Sennheiser</a></li>
-                    <li><a href="http://www.dali-speakers.com/" target="_blank">Dali</a></li>
-					<li><a href="http://www.dynaudio.com/int/index.php" target="_blank">Dynaudio</a></li>
-					<li><a href="http://www.paradigm.com/" target="_blank">Paradigm</a></li>
-					<li><a href="http://home.jlaudio.com/" target="_blank">JL Audio</a></li>
-										
+                	<li><%= link_to("AMX", produits_path(:anchor => "amx")) %></li>
+					<li><%= link_to("Vantage", produits_path(:anchor => "vantage")) %></li>
+					<li><%= link_to("Linn", produits_path(:anchor => "linn")) %></li>
+					<li><%= link_to("Marantz", produits_path(:anchor => "marantz")) %></li>
+					<li><%= link_to("Speakercraft", produits_path(:anchor => "speakercraft")) %></li>
+					<li><%= link_to("Panamax", produits_path(:anchor => "panamax")) %></li>
+					<li><%= link_to("Cambridge", produits_path(:anchor => "cambridge")) %></li>
+					<li><%= link_to("Tivoli", produits_path(:anchor => "tivoli")) %></li>
+					<li><%= link_to("Anthem", produits_path(:anchor => "anthem")) %></li>
+					<li><%= link_to("Grado", produits_path(:anchor => "grado")) %></li>
+					<li><%= link_to("Sennheiser", produits_path(:anchor => "sennheiser")) %></li>
+					<li><%= link_to("Dali", produits_path(:anchor => "dali")) %></li>
+					<li><%= link_to("Dynaudio", produits_path(:anchor => "dynaudio")) %></li>
+					<li><%= link_to("Paradigm", produits_path(:anchor => "paradigm")) %></li>
+					<li><%= link_to("JL Audio", produits_path(:anchor => "jl_audio")) %></li>					
                 </ul>   
          	</div>
             <div class="col_1">
             	<ul>
-                	<li><a href="http://www.simaudio.com/" target="_blank">Moon</a></li>
-	                <li><a href="http://www.audioquest.com/" target="_blank">Audioquest</a></li>
-	                <li><a href="http://www.stewartfilm.com/" target="_blank">Stewart</a></li>
-	                <li><a href="http://www.bello.com/" target="_blank">Bello</a></li>
-					<li><a href="http://www.sharp.ca/" target="_blank">Sharp</a></li>
-					<li><a href="https://panasonic.ca/french/homepage.asp" target="_blank">Panasonic</a></li>
-	                <li><a href="http://www.runco.com/" target="_blank">Runco</a></li>
-	                <li><a href="http://www.draperinc.com/index.asp" target="_blank">Draper</a></li>
-	                <li><a href="http://control4.com/" target="_blank">Control4</a></li>
-					<li><a href="http://www.middleatlantic.com/" target="_blank">Middle Atlantic</a></li>
-	                <li><a href="http://www.salamanderdesigns.com/" target="_blank">Salamender Designs</a></li>
-	                <li><a href="http://www.bdiusa.com/" target="_blank">BDI</a></li>
-	                <li><a href="http://www.dinec.com/accueil.asp" target="_blank">Dinec</a></li>
-					<li><a href="http://www.universalremote.com/" target="_blank">URC</a></li>
+					<li><%= link_to("Moon", produits_path(:anchor => "moon")) %></li>
+					<li><%= link_to("Audioquest", produits_path(:anchor => "audioquest")) %></li>
+					<li><%= link_to("Stewart", produits_path(:anchor => "stewart")) %></li>
+					<li><%= link_to("Bello", produits_path(:anchor => "bello")) %></li>
+					<li><%= link_to("Sharp", produits_path(:anchor => "sharp")) %></li>
+					<li><%= link_to("Panasonic", produits_path(:anchor => "panasonic")) %></li>
+					<li><%= link_to("Draper", produits_path(:anchor => "draper")) %></li>
+					<li><%= link_to("Runco", produits_path(:anchor => "runco")) %></li>
+					<li><%= link_to("Control4", produits_path(:anchor => "control4")) %></li>
+					<li><%= link_to("Middle Atlantic", produits_path(:anchor => "middle_atlantic")) %></li>
+					<li><%= link_to("Salamender Designs", produits_path(:anchor => "salamender_designs")) %></li>
+					<li><%= link_to("BDI", produits_path(:anchor => "bdi")) %></li>
+					<li><%= link_to("Dinec", produits_path(:anchor => "dinec")) %></li>
+					<li><%= link_to("URC", produits_path(:anchor => "urc")) %></li>	
 
                  </ul>   
           	</div>
@@ -80,7 +78,7 @@
 	<!-- ************************************** -->    
 	<!-- ************* AUTOMATION ************* -->
 	<!-- ************************************** -->   
-    <li id="automation"><%= link_to((t :professional), automatisation_path, :class => "drop") %>
+    <li id="automation"><%= link_to((t :professional), commercial_path, :class => "drop") %>
 		<div class="dropdown_1column" id="menu_automation">
 			<div class="col_1 firstcolumn">
 				<ul class="levels">

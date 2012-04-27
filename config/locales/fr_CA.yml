@@ -112,6 +112,13 @@ fr_CA:
   friday: Vendredi
   saturday: Samedi
      
+     
+  # PRODUCTS
+  official_site: site officiel
+  product_amx_txt: Les solutions matérielles et logicielles d'AMX simplifient la manière dont les gens interagissent avec la technologie. Brosseau a selectionné pour vous les meilleurs produits d'AMX en contrôle automatique et domotique, contrôle de système complet et distribution de signal audio/video. Nous vous aiderons à obtenir le maximum de votre équipement AMX que vous l'implémentiez dans une salle de conférence, à la maison, dans des salles de classe, des centres de contrôle, des hotels, des salles de spectables, des centre de diffusion, ou ailleurs.
+  product_amx_visit: Pour en savoir plus à propos d'AMX et de ses produits, visitez leur
+  
+  
   
   # SCROLLER
   audio_title: AUDIO

@@ -108,7 +108,11 @@
   saturday: Saturday
   
   
-  
+  # PRODUCTS
+  official_site: official website
+  product_amx_txt: AMX hardware and software solutions simplify the way people interact with technology. Brosseau has selected for you AMX's best products in control and automation, system-wide switching and audio/video signal distribution, digital signage and technology management. We will help you to get the most out of AMX systems whether you are implementing them in conference rooms, homes, classrooms, network operation / command centers, hotels, entertainment venues, broadcast facilities, or elsewhere.
+  product_amx_visit: To learn more about AMX and its products, visit AMX
+    
   # SCROLLER
   audio_title: AUDIO
   video_title: VIDEO
