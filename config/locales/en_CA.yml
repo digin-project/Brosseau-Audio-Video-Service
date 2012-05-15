@@ -170,7 +170,8 @@
   team_text_2: "Our technicians do not only deliver the stock. They install the gear according to well known standards of the industry, program, activate and calibrate each unit as needed and explain how it works and how to use it to the new users."
   team_text_3: "Our products and services are guaranteed but in case of failure or problem, our service department will intervene rapidly."
   team_contact_1: "ADVISORS AND CUSTOMER SERVICE"
-  team_contact_2: "TECHNICIAN AND PROGRAMMER" 
+  team_contact_2: "TECHNICIAN AND PROGRAMMER"
+  team_contact_3: "REPAIRING TECHNICIAN" 
   
   # STANDARD
   date:

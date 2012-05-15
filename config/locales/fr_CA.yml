@@ -181,6 +181,7 @@ fr_CA:
   team_text_3: "Nos produits et services sont garantis, mais notre atelier de réparation est prêt à intervenir au besoin."
   team_contact_1: "CONSEILLERS ET SERVICE À LA CLIENTÈLE"
   team_contact_2: "TECHNICIEN ET PROGRAMMEUR"  
+  team_contact_3: "TECHNICIEN AUX RÉPARATIONS"  
 
    
   #active admin
