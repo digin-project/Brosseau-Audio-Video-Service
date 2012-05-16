@@ -20,7 +20,3 @@
 	top:0px;
 	padding-bottom:25px;
 }
-
-.notice {position:relative: top:0px; width:100%; height:30px; background-color:#FF0; color:#000;}
-
-.alert  {position:relative: top:30px; width:100%; height:30px; background-color:#F00; color:#FFF;}
