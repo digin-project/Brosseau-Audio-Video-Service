@@ -112,6 +112,9 @@ fr_CA:
   friday: Vendredi
   saturday: Samedi
      
+   
+  ie_notice: Votre navigateur est obsolète veuillez le mettre à jour et le Web sera pour vous une nouvelle expérience !
+  ie_alert: Nous vous recommandons Mozilla Firefox ou Google Chrome
      
   # PRODUCTS
   official_site: site officiel
