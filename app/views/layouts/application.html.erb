@@ -48,7 +48,15 @@
 </script>
 </head>
 <body id="<%= @body_id %>">
-	
+		<!--[if lt IE 8]>
+		<script>		
+			<p class="notice"><%=t :ie_notice %></p>
+			<p class="alert"><%=t :ie_alert %></p>
+		</script>
+		<![endif]-->
+		
+		
+			
 	<!-- BEGIN HEADER -->
 	<div id="header">
 		
@@ -90,15 +98,7 @@
 		<%= link_to("", deals_path, :id => (t :deals_sprite_id)) %>
 	<%end%>
 	
-	<div id="wrap">
-		
-		
-		<!--[if lt IE 8]>
-		<script>		
-			<p class="notice"><%=t :ie_notice %></p>
-			<p class="alert"><%=t :ie_alert %></p>
-		</script>
-		<![endif]-->	
+	<div id="wrap">	
 			
 		<%= yield %>
 	</div>
