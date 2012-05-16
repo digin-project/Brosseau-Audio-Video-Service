@@ -808,7 +808,8 @@ ul.menu > li ul li a:hover{
 	color:#000;
 	font-family: "LaneNarrowRegular", Verdana, sans-serif;
 	font-size:18px;
-	padding-top:7px;
+	position:relative;
+	top:13px;
 	padding-bottom:25px;
 }
 .generic_page h2 {
